@@ -31,7 +31,7 @@
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .copyright {
     padding-top: 1rem;
     text-align: center;

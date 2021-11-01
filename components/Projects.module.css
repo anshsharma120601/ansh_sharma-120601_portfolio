@@ -9,7 +9,7 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .project h1 {
     width: 400%;
     text-align: center;

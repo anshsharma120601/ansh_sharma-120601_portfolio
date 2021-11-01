@@ -28,7 +28,7 @@
   border-radius: 3px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .navbar {
     width: 36.9cm;
     height: 3.5cm;
