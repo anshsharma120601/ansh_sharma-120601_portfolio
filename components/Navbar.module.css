@@ -1,4 +1,5 @@
 .navbar {
+  display: flex;
   margin-top: 0.5rem;
   margin-left: 0.5rem;
   background-color: white;
@@ -26,11 +27,12 @@
   padding-top: 3rem;
   cursor: pointer;
   border-radius: 3px;
+  transition: 0.1s ease-in;
 }
 
 @media only screen and (max-width: 450px) {
   .navbar {
-    width: 36.9cm;
+    width: 37.7cm;
     height: 3.5cm;
   }
 
@@ -43,5 +45,6 @@
     padding-bottom: 3.7rem;
     padding-top: 3rem;
     border-radius: 12px;
+    transition: 0.1s ease-in-out;
   }
 }

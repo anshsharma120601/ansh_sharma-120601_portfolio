@@ -15,8 +15,7 @@
 .details h3 p {
   color: white;
   font-size: 120%;
-  font-family: 'Times New Roman', Times, serif ;
-  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif ;;
 }
 
 .details h3 u {
@@ -46,5 +45,6 @@
     font-size: 150%;
     font-weight: 100;
     width: 360%;
+    height: 107.7rem;
   }
 }

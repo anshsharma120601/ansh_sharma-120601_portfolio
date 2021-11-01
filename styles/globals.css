@@ -7,6 +7,7 @@
 body {
   font-family: 'Open Sans', 'Lato', sans-serif;
   background-color: rgb(58, 57, 57);
+  max-height: 100vh;
 }
 
 h1,
@@ -16,4 +17,19 @@ h4,
 h5,
 h6 {
   font-family: 'Lato', sans-serif;
+}
+
+footer {
+  margin-top: 20rem;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    height: 100vh;
+  }
+
+  footer {
+    width: 80rem;
+    position: fixed;
+  }
 }
