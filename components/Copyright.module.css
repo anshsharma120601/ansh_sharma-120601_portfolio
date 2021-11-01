@@ -39,6 +39,8 @@
 
 @media only screen and (max-width: 450px) {
   .copyright {
-    width: 90rem;
+    width: 100rem;
+    padding-top: 3rem;
+    text-align: center;
   }
 }

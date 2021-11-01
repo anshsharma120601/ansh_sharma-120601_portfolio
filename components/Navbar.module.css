@@ -4,8 +4,10 @@
   margin-left: 0.5rem;
   background-color: white;
   border-radius: 13px;
-  width: 89rem;
   position: fixed;
+  min-width: 50rem;
+  max-width: 100rem;
+  width: min-content;
 }
 
 .navbar p {
