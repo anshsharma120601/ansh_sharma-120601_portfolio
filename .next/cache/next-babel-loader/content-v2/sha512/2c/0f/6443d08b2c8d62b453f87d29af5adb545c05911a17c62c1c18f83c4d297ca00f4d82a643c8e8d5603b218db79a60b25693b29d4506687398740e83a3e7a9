@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport Certificate from '../../components/Certificate';\n\nfunction Certificates() {\n  return /*#__PURE__*/_jsx(\"div\", {\n    children: /*#__PURE__*/_jsx(Certificate, {})\n  });\n}\n\nexport default Certificates;","map":null,"metadata":{},"sourceType":"module"}

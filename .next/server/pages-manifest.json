@@ -1,7 +1,11 @@
 {
   "/_app": "pages/_app.js",
+  "/activities": "pages/activities.html",
+  "/certificates": "pages/certificates.html",
+  "/": "pages/index.html",
+  "/my_projects": "pages/my_projects.html",
+  "/resume": "pages/resume.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }

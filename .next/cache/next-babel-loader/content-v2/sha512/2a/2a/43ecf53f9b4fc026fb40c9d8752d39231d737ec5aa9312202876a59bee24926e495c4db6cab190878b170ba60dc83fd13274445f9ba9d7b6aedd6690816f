@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport Activity from '../../components/Activity';\nexport default function Activities() {\n  return /*#__PURE__*/_jsx(\"div\", {\n    children: /*#__PURE__*/_jsx(Activity, {})\n  });\n}","map":null,"metadata":{},"sourceType":"module"}

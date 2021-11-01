@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport Resume from '../../components/Resume';\n\nfunction resume() {\n  return /*#__PURE__*/_jsx(\"div\", {\n    children: /*#__PURE__*/_jsx(Resume, {})\n  });\n}\n\nexport default resume;","map":null,"metadata":{},"sourceType":"module"}
