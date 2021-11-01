@@ -30,4 +30,12 @@ h6 {
   body {
     height: 100vh;
   }
+  #footer {
+    height: 15rem;
+    padding-bottom: 5rem;
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    width: 87.5rem;
+  }
 }

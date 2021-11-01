@@ -5,9 +5,6 @@
   background-color: white;
   border-radius: 13px;
   position: fixed;
-  min-width: 50rem;
-  max-width: 100rem;
-  width: min-content;
 }
 
 .navbar p {
@@ -34,8 +31,10 @@
 
 @media only screen and (max-width: 450px) {
   .navbar {
-    width: 37.7cm;
+    width: 37cm;
     height: 3.5cm;
+    margin-left: 0.04rem;
+    margin-right: 1rem;
   }
 
   .navbar p label {

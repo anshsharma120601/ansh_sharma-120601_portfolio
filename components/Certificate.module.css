@@ -23,32 +23,32 @@
 
   .certificate label img {
     margin-top: 4cm;
-    height: 1240px;
-    width: 1440px;
+    height: 1210px;
+    width: 1410px;
     padding: 1rem;
     border-radius: 120px;
   }
 
   .certificate img {
     margin-top: 0.5cm;
-    height: 1240px;
-    width: 1440px;
+    height: 1210px;
+    width: 1410px;
     padding: 1rem;
     border-radius: 120px;
   }
 
   .certificate img:hover {
     margin-top: 0.5cm;
-    height: 1000px;
-    width: 1200px;
+    height: 1210px;
+    width: 1410px;
     padding: 1rem;
     border-radius: 120px;
   }
 
   .certificate label img:hover {
-    margin-top: 1cm;
-    height: 1000px;
-    width: 1200px;
+    margin-top: 4cm;
+    height: 1210px;
+    width: 1410px;
     padding: 1rem;
     border-radius: 120px;
   }

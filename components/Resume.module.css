@@ -1,10 +1,15 @@
 .resume img {
   padding: 7rem;
-  margin-top: 2cm;
+  margin-top: 1.5cm;
+  height: 100rem;
+  width: 60rem;
+  margin-left: 6.5cm;
 }
 
 @media only screen and (max-width: 400px) {
-  .resume {
-    height: 2659px;
+  .resume img {
+    width: 60.7rem;
+    height: 91rem;
+    margin-right: 5cm;
   }
 }

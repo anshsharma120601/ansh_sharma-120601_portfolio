@@ -8,6 +8,7 @@
 @media only screen and (max-width: 450px) {
   .project {
     height: 2600px;
+    width: 22rem;
   }
 
   .project h1 {
