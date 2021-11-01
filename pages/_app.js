@@ -9,9 +9,9 @@ function MyApp({ Component, pageProps }) {
         <Navbar />
       </header>
       <Component {...pageProps} />
-      <footer>
+      <div id="footer">
         <Copyright />
-      </footer>
+      </div>
     </div>
   );
 }

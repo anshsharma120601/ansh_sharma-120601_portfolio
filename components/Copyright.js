@@ -4,7 +4,7 @@ import Link from 'next/dist/client/link';
 export default function Copyright() {
   return (
     <div className={classes.copyright}>
-      <sta>Copyright @Ansh Sharma. All rights reserved.</sta>
+      <label>Copyright @Ansh Sharma. All rights reserved.</label>
       <p>
         <img src="https://logos-world.net/wp-content/uploads/2020/05/WhatsApp-Logo.png" />
         7011061359

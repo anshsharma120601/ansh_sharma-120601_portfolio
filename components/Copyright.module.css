@@ -4,9 +4,15 @@
   color: black;
   background-color: white;
   height: 10rem;
+  display: flex;
+}
+
+.copyright label {
+  font-weight: 500;
 }
 
 .copyright p {
+  padding: 2rem;
   margin-top: 1rem;
   align-items: center;
   color: blue;
