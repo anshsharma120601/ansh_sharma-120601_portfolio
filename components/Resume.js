@@ -5,7 +5,7 @@ function Resume() {
   return (
     <div className={classes.resume}>
       <Navbar />
-      <img src="https://media-exp1.licdn.com/media/AAYUAQR3AAgAAQAAAAAAADLCsANNKVoLQaiL1ISLRdmIqw.png" />
+      <img src="https://media-exp1.licdn.com/media/AAYUAQR3AAgAAQAAAAAAADrreC7NMJqaTKuHrCSf0-w-XA.png" />
     </div>
   );
 }
