@@ -12,21 +12,16 @@
   color: white;
 }
 
-.details h3 label {
+.details h3 p {
   color: white;
-  font-size: 150%;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  font-family: sans-serif;
+  font-size: 120%;
+  font-family: 'Times New Roman', Times, serif ;
+  font-weight: 100;
 }
 
 .details h3 u {
   color: blue;
   font-weight: 300;
-  cursor: pointer;
-}
-
-.details h3 label:hover {
   cursor: pointer;
 }
 

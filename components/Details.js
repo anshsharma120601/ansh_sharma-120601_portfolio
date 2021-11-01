@@ -9,7 +9,6 @@ function Details() {
       </marquee>
       <img src="https://instagram.fdel1-5.fna.fbcdn.net/v/t51.2885-15/e35/p240x240/250193521_612277296800708_7474828343372660817_n.jpg?_nc_ht=instagram.fdel1-5.fna.fbcdn.net&_nc_cat=108&_nc_ohc=Nh6b9Y2H5a8AX9X3x7J&edm=ABJHkxYAAAAA&ccb=7-4&oh=7e47ebeb326c67317e815214df9546ed&oe=618098D9&_nc_sid=fa978c&ig_cache_key=MjY5MzgxOTE4MzI2Njc0MTQxNQ%3D%3D.2-ccb7-4" />
       <h3>
-        <label>
           <p>
             I have completed (2019)my Schooling / Undergraduation in science and
             maths (PCM) from
@@ -62,7 +61,6 @@ function Details() {
             <b>Projects:</b> Currently working on developing my personal
             portfolio based on NextJS.
           </p>
-        </label>
       </h3>
     </div>
   );

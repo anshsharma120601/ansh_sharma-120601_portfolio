@@ -57,7 +57,7 @@ export default function Activity() {
         with my friends for bike rides and plans. They say that 4wheels carry
         body and 2wheels carry soul.
       </p>
-      <img src="https://avatars.githubusercontent.com/u/81307379?v=4" />
+      <img src="https://lh3.googleusercontent.com/a-/AOh14GgjKEwyvRlxVNQjf-qL3INXAMQiRpIpMXuJ6TYvkw=s288-p-rw-no" />
     </div>
   );
 }
