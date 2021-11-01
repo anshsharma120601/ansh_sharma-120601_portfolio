@@ -1,0 +1,30 @@
+.project p {
+  width: 100%;
+}
+
+.project h1 {
+  padding-top: 20%;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .project h1 {
+    width: 400%;
+    text-align: center;
+    font-size: 350%;
+  }
+
+  .project p label:hover {
+    padding-bottom: 4.1rem;
+    padding-top: 2.5rem;
+  }
+  
+  .project p {
+    width: 36.5cm;
+    height: 3.5cm;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+}

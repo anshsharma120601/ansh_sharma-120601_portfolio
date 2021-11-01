@@ -1,0 +1,55 @@
+.details {
+  padding-top: 8rem;
+  padding-left: 0.5rem;
+}
+
+.details h1 {
+  font-family: cursive;
+}
+
+.details marquee {
+  font-family: cursive;
+  color: white;
+}
+
+.details h3 label {
+  color: white;
+  font-size: 150%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: sans-serif;
+}
+
+.details h3 u {
+  color: blue;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.details h3 label:hover {
+  cursor: pointer;
+}
+
+.details img {
+  background: white;
+  padding: 0.2rem;
+  border-radius: 12px;
+  margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .details img {
+    background: white;
+    padding: 0.2rem;
+    margin-left: 1cm;
+    border-radius: 12px;
+    height: 15cm;
+  }
+
+  .details h3 {
+    color: white;
+    font-size: 150%;
+    font-weight: 100;
+    width: 360%;
+  }
+}

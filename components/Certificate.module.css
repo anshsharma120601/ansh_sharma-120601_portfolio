@@ -1,0 +1,43 @@
+.certificate img {
+  margin-top: 4cm;
+  height: 500px;
+  width: 600px;
+  padding: 1rem;
+}
+
+.certificate img:hover {
+  height: 700px;
+  width: 800px;
+  border-radius: 80px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  .certificate label img {
+    margin-top: 1cm;
+    height: 1000px;
+    width: 1200px;
+    padding: 1rem;
+    border-radius: 120px;
+  }
+
+  .certificate p label:hover {
+      padding-bottom: 4.1rem;
+      padding-top: 2.5rem;
+  }
+
+  .certificate img {
+    margin-top: 0.5cm;
+    height: 1000px;
+    width: 1200px;
+    padding: 1rem;
+    border-radius: 120px;
+  }
+
+  .certificate p {
+    width: 36.5cm;
+    height: 3.5cm;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+}

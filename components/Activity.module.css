@@ -1,0 +1,77 @@
+.activity pre label {
+  color: black;
+}
+
+.activity pre label:hover {
+  padding-bottom: 2.8rem;
+  padding-top: 2.85rem;
+}
+
+.activity h1 {
+  color: white;
+  padding-top: 9rem;
+  text-align: center;
+  font-family: cursive;
+}
+
+.activity h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  padding-left: 1rem;
+}
+
+.activity p {
+  color: white;
+  font-weight: 100;
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+
+.activity p u {
+  color: blue;
+  font-weight: 300;
+}
+
+.activity label img {
+  height: 300px;
+  width: 500px;
+  margin-left: 1rem;
+  border-radius: 12px;
+  background-color: white;
+  padding: 0.2rem;
+}
+
+.activity img {
+  height: 400px;
+  width: 400px;
+  margin-left: 1rem;
+  border-radius: 12px;
+  padding: 0.2rem;
+  background-color: white;
+}
+
+.activity o img {
+  height: 200px;
+  width: 400px;
+  margin-left: 1rem;
+  border-radius: 12px;
+  padding: 0.2rem;
+  background-color: white;
+}
+
+@media only screen and (max-width: 400px) {
+  .activity h1 {
+    width: 400%;
+    text-align: center;
+    font-size: 350%;
+  }
+
+  .activity p {
+    width: 38cm;
+  }
+
+  .activity pre label:hover {
+    padding-bottom: 3.85rem;
+    padding-top: 2.7rem;
+  }
+}

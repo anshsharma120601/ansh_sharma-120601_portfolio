@@ -1,0 +1,47 @@
+.navbar {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  background-color: white;
+  border-radius: 13px;
+  width: 89rem;
+  position: fixed;
+}
+
+.navbar p {
+  color: black;
+  padding: 2rem;
+}
+
+.navbar p label {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 150%;
+  scroll-behavior: smooth;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.navbar p label:hover {
+  background-color: gray;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
+    width: 36.9cm;
+    height: 3.5cm;
+  }
+
+  .navbar p label {
+    padding: 2.2rem;
+  }
+
+  .navbar p label:hover {
+    background-color: gray;
+    padding-bottom: 3.7rem;
+    padding-top: 3rem;
+    border-radius: 12px;
+  }
+}
