@@ -30,6 +30,8 @@
   padding: 0.2rem;
   border-radius: 12px;
   margin-left: 0.5rem;
+  width: 7cm;
+  height: 10cm;
 }
 
 @media only screen and (max-width: 450px) {
