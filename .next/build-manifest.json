@@ -29,10 +29,20 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
+    "/activities": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/activities.js"
+    ],
     "/certificates": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/certificates.js"
+    ],
+    "/my_projects": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/my_projects.js"
     ],
     "/resume": [
       "static/chunks/main.js",

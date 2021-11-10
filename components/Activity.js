@@ -8,6 +8,9 @@ export default function Activity() {
       padding="1rem"
       marginTop="5rem"
       flexDirection="column"
+      bgColor="blue.900"
+      paddingBottom="2000"
+      textColor="white"
     >
       <Heading fontFamily="cursive" as="h1" size="4xl">
         Activities

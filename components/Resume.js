@@ -1,7 +1,6 @@
 import {
   Flex,
   Image,
-  
   PopoverBody,
   Popover,
   PopoverTrigger,
@@ -10,18 +9,16 @@ import {
 
 function Resume() {
   return (
-    <Flex flexDirection="column">
+    <Flex flexDirection="column" textColor="white" bgColor="blue.900" paddingBottom="2000">
       <Popover placement="right">
         <PopoverTrigger>
-          
-            <Image 
-              _hover={{ cursor: "pointer" }}
-              marginTop="6rem"
-              h="30rem"
-              w="20rem"
-              src="https://media-exp1.licdn.com/media/AAYUAgR3AAgAAQAAAAAAACePTWjq1si0Q2yia1PzJTtb3Q.png"
-            />
-          
+          <Image
+            _hover={{ cursor: 'pointer' }}
+            marginTop="6rem"
+            h="30rem"
+            w="20rem"
+            src="https://media-exp1.licdn.com/media/AAYUAgR3AAgAAQAAAAAAACePTWjq1si0Q2yia1PzJTtb3Q.png"
+          />
         </PopoverTrigger>
         <PopoverContent h="full" w="full">
           <PopoverBody h="full" w="full">
