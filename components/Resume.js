@@ -9,7 +9,7 @@ import {
 
 function Resume() {
   return (
-    <Flex flexDirection="column" paddingBottom="2000">
+    <Flex flexDirection="column">
       <Popover placement="right">
         <PopoverTrigger>
           <Image

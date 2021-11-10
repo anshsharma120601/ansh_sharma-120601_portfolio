@@ -34,15 +34,20 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/activities.js"
     ],
+    "/certificates": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/certificates.js"
+    ],
     "/my_projects": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/my_projects.js"
     ],
-    "/next/dist/pages/_error": [
+    "/resume": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/next/dist/pages/_error.js"
+      "static/chunks/pages/resume.js"
     ]
   },
   "ampFirstPages": []

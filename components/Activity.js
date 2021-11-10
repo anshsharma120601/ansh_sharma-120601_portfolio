@@ -8,7 +8,6 @@ export default function Activity() {
       padding="1rem"
       marginTop="5rem"
       flexDirection="column"
-      paddingBottom="2000"
     >
       <Heading fontFamily="cursive" as="h1" size="4xl">
         Activities
