@@ -14,6 +14,7 @@ function Details() {
       flexDirection="column"
       padding="4"
       fontFamily="sans-serif"
+      bgColor="rgba(255, 255, 255, 0.92)"
     >
       <Heading
         _hover={{
