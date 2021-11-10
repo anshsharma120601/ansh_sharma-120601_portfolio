@@ -10,8 +10,8 @@ import { HamburgerIcon, CloseIcon, EmailIcon } from '@chakra-ui/icons';
 import NextLink from 'next/link';
 
 export default function Navbar() {
-  const { colorMode, toggleColorMode } = useColorMode()
-  const isDark = colorMode === 'dark'
+  const { colorMode, toggleColorMode } = useColorMode();
+  const isDark = colorMode === 'dark';
   const [display, changeDisplay] = useState('none');
   return (
     <Flex>
@@ -23,6 +23,13 @@ export default function Navbar() {
         width="full"
       >
         {/* Desktop */}
+        <Switch
+          padding="1rem"
+          color="green"
+          isChecked={isDark}
+          onChange={toggleColorMode}
+        />
+
         <Flex width="full" display={['none', 'none', 'flex', 'flex']}>
           <NextLink href="/" passHref>
             <Button as="a" variant="ghost" aria-label="Home" my={5} w="100%">
@@ -56,15 +63,10 @@ export default function Navbar() {
 
           <NextLink href="mailto:anshsharma120601@gmail.com" passHref>
             <Button as="a" variant="ghost" aria-label="Contact" my={5} w="100%">
-              <EmailIcon />Email me
+              <EmailIcon />
+              Email me
             </Button>
           </NextLink>
-          <Switch
-          padding="1rem"
-          color="green"
-          isChecked={isDark}
-          onChange={toggleColorMode}
-        />
         </Flex>
 
         {/* Mobile */}
@@ -106,38 +108,87 @@ export default function Navbar() {
 
         <Flex flexDir="column" align="center">
           <NextLink href="/" passHref>
-            <Button color="black" as="a" variant="ghost" aria-label="Home" my={5} w="100%">
+            <Button
+              color="black"
+              as="a"
+              variant="ghost"
+              aria-label="Home"
+              my={5}
+              w="100%"
+              onClick={() => changeDisplay('none')}
+            >
               Home
             </Button>
           </NextLink>
 
           <NextLink href="/resume" passHref>
-            <Button color="black" as="a" variant="ghost" aria-label="About" my={5} w="100%">
+            <Button
+              color="black"
+              as="a"
+              variant="ghost"
+              aria-label="About"
+              my={5}
+              w="100%"
+              onClick={() => changeDisplay('none')}
+            >
               Resume
             </Button>
           </NextLink>
 
           <NextLink href="/certificates" passHref>
-            <Button color="black" as="a" variant="ghost" aria-label="Contact" my={5} w="100%">
+            <Button
+              color="black"
+              as="a"
+              variant="ghost"
+              aria-label="Contact"
+              my={5}
+              w="100%"
+              onClick={() => changeDisplay('none')}
+            >
               Certificates
             </Button>
           </NextLink>
 
           <NextLink href="/my_projects" passHref>
-            <Button color="black" as="a" variant="ghost" aria-label="Contact" my={5} w="100%">
+            <Button
+              color="black"
+              as="a"
+              variant="ghost"
+              aria-label="Contact"
+              my={5}
+              w="100%"
+              onClick={() => changeDisplay('none')}
+            >
               My Projects
             </Button>
           </NextLink>
 
           <NextLink href="/activities" passHref>
-            <Button color="black" as="a" variant="ghost" aria-label="Contact" my={5} w="100%">
+            <Button
+              color="black"
+              as="a"
+              variant="ghost"
+              aria-label="Contact"
+              my={5}
+              w="100%"
+              onClick={() => changeDisplay('none')}
+            >
               Co Curricular Activities
             </Button>
           </NextLink>
 
           <NextLink href="mailto:anshsharma120601@gmail.com" passHref>
-            <Button color="black" as="a" variant="ghost" aria-label="Contact" my={5} w="100%">
-              <EmailIcon />Email Me
+            <Button
+              color="black"
+              as="a"
+              variant="ghost"
+              aria-label="Contact"
+              my={5}
+              w="100%"
+              onClick={() => changeDisplay('none')}
+            >
+              <EmailIcon />
+              Email Me
             </Button>
           </NextLink>
         </Flex>
