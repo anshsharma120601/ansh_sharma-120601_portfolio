@@ -1,5 +1,5 @@
 import { PhoneIcon } from '@chakra-ui/icons';
-import { Flex, Image, Link } from '@chakra-ui/react';
+import { Flex, Image, Link} from '@chakra-ui/react';
 
 export default function Footer() {
   return (
@@ -42,6 +42,7 @@ export default function Footer() {
           My Instagram Account
         </Link>
       </Flex>
+      
     </Flex>
   );
 }
