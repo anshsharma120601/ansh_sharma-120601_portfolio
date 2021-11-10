@@ -10,33 +10,20 @@ import {
 function Details() {
   return (
     <Flex
-      marginTop="20"
+      marginTop="4.3rem"
       flexDirection="column"
       padding="4"
       fontFamily="sans-serif"
     >
       <Heading
-        _hover={{
-          fontSize: '72px',
-          background: '-webkit-linear-gradient(red, yellow)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-        }}
+        fontSize="32px"
         fontFamily="cursive"
-        cursor="pointer"
+        background="-webkit-linear-gradient(red, gold)"
+        backgroundClip="text"
       >
         Ansh Sharma Portfolio
       </Heading>
-      <Image
-        h="30rem"
-        w="20rem"
-        padding="1rem"
-        borderRadius="13px"
-        padding="0.2rem"
-        bgColor="white"
-        cursor="pointer"
-        src="https://instagram.fdel27-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/254772852_399379941617650_7105300592827584340_n.jpg?_nc_ht=instagram.fdel27-2.fna.fbcdn.net&_nc_cat=110&_nc_ohc=PsNARpSJWWQAX_9h5Su&edm=AI8ESKwBAAAA&ccb=7-4&oh=7ba3380719ab5d3a800381b0113dca75&oe=6192AE32&_nc_sid=195af5&ig_cache_key=MjcwNDAwOTc4NzUwMjA4MDUxMA%3D%3D.2-ccb7-4"
-      />
+      <Flex cursor="pointer"><Image bgColor="white" padding="0.2rem" h="28rem" w="20rem" borderRadius="13px" src="https://scontent.fdel27-3.fna.fbcdn.net/v/t1.6435-9/34809123_1898037376926116_2863706299722366976_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=M-DvgoKZmlgAX_cBcuk&_nc_ht=scontent.fdel27-3.fna&oh=21c4e808f795885c6b33d05b8cc71d1d&oe=61B05ADB"></Image></Flex>
       <Flex
         flexDirection="column"
         marginTop="2"
