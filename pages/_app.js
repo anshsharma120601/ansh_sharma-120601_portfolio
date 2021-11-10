@@ -1,18 +1,14 @@
-import '../styles/globals.css';
-import Copyright from '../components/Copyright';
+import { ChakraProvider } from '@chakra-ui/react';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
-      <header>
-        <Navbar />
-      </header>
+    <ChakraProvider>
+      <Navbar />
       <Component {...pageProps} />
-      <div id="footer">
-        <Copyright />
-      </div>
-    </div>
+      <Footer />
+    </ChakraProvider>
   );
 }
 

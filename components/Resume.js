@@ -1,12 +1,35 @@
-import classes from './Resume.module.css';
+import {
+  Flex,
+  Image,
+  
+  PopoverBody,
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+} from '@chakra-ui/react';
 
 function Resume() {
   return (
-    <div className={classes.resume}>
-      <p>
-        <img src="https://instagram.fdel1-2.fna.fbcdn.net/v/t51.2885-15/e15/p480x480/251204509_1100124617399548_3810922499970257398_n.jpg?_nc_ht=instagram.fdel1-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=HoeLyPVkTQMAX__BpxT&edm=ABJHkxYAAAAA&ccb=7-4&oh=20f64da23b86f5a87f0a088e4788d535&oe=6187A036&_nc_sid=fa978c&ig_cache_key=MjY5NzM3OTU4NDk2NTA4NDI3OA%3D%3D.2-ccb7-4" />
-      </p>
-    </div>
+    <Flex flexDirection="column">
+      <Popover placement="right">
+        <PopoverTrigger>
+          
+            <Image 
+              _hover={{ cursor: "pointer" }}
+              marginTop="6rem"
+              h="30rem"
+              w="20rem"
+              src="https://media-exp1.licdn.com/media/AAYUAgR3AAgAAQAAAAAAACePTWjq1si0Q2yia1PzJTtb3Q.png"
+            />
+          
+        </PopoverTrigger>
+        <PopoverContent h="full" w="full">
+          <PopoverBody h="full" w="full">
+            <Image src="https://media-exp1.licdn.com/media/AAYUAgR3AAgAAQAAAAAAACePTWjq1si0Q2yia1PzJTtb3Q.png" />
+          </PopoverBody>
+        </PopoverContent>
+      </Popover>
+    </Flex>
   );
 }
 

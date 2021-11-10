@@ -1,18 +1,57 @@
-import classes from './Details.module.css';
-import Link from 'next/dist/client/link';
+import {
+  Flex,
+  Image,
+  Link,
+  ListItem,
+  UnorderedList,
+  Heading,
+} from '@chakra-ui/react';
 
 function Details() {
   return (
-    <div className={classes.details}>
-      <marquee direction="right" behaviour="scroll" width="1400">
-        <h1>Ansh Sharma Portfolio</h1>
-      </marquee>
-      <img src="https://instagram.fdel27-3.fna.fbcdn.net/v/t51.2885-15/e15/p640x640/252579930_4473469059433976_1180141849341548555_n.jpg?_nc_ht=instagram.fdel27-3.fna.fbcdn.net&_nc_cat=108&_nc_ohc=q3kZ60Z49pkAX_Cr9hC&edm=ABJHkxYAAAAA&ccb=7-4&oh=efa373174bdff2b376b96d9b046c72e4&oe=6188FBFD&_nc_sid=fa978c&ig_cache_key=MjY5ODA0NjAwNTIwMjIyNzkzOA%3D%3D.2-ccb7-4" />
-      <h3>
+    <Flex
+      marginTop="20"
+      flexDirection="column"
+      padding="4"
+      fontFamily="sans-serif"
+    >
+      <Heading
+        _hover={{
+          fontSize: '72px',
+          background: '-webkit-linear-gradient(red, yellow)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
+        }}
+        fontFamily="cursive"
+        cursor="pointer"
+      >
+        Ansh Sharma Portfolio
+      </Heading>
+      <Image
+        h="30rem"
+        w="20rem"
+        padding="1rem"
+        borderRadius="13px"
+        padding="0.2rem"
+        bgColor="white"
+        cursor="pointer"
+        src="https://instagram.fdel27-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/254772852_399379941617650_7105300592827584340_n.jpg?_nc_ht=instagram.fdel27-2.fna.fbcdn.net&_nc_cat=110&_nc_ohc=PsNARpSJWWQAX_9h5Su&edm=AI8ESKwBAAAA&ccb=7-4&oh=7ba3380719ab5d3a800381b0113dca75&oe=6192AE32&_nc_sid=195af5&ig_cache_key=MjcwNDAwOTc4NzUwMjA4MDUxMA%3D%3D.2-ccb7-4"
+      />
+      <Flex
+        flexDirection="column"
+        marginTop="2"
+        alignItems="flex-start"
+        fontSize="18"
+        paddingBottom="10rem"
+      >
+        <h3>
           <p>
             I have completed (2019)my Schooling / Undergraduation in science and
             maths (PCM) from
-            <Link href="https://www.amity.edu/ais/pushpvihar/">
+            <Link
+              _hover={{ color: 'blue.600' }}
+              href="https://www.amity.edu/ais/pushpvihar/"
+            >
               <u>Amity International School</u>
             </Link>
             Pushp Vihar, Delhi, India.
@@ -20,23 +59,23 @@ function Details() {
           <p>
             <b>Graduation (2019-2024):</b> Netaji Subhash University of
             Technology
-            <Link href="http://aiactr.ac.in/">
+            <Link _hover={{ color: 'blue.600' }} href="http://aiactr.ac.in/">
               <u>(NSUT), East Campus</u>
             </Link>
             , New Delhi with specialization in Electronics and Communication.
           </p>
           <p>
             <b>Coding Languages :</b>
-            <ul>
-              <li>Python- Intermediate Level</li>
-              <li>Javascript- Intermediate Level</li>
-              <li>Html- Expert Level</li>
-              <li>CSS- Expert Level</li>
-              <li>Reactjs- Intermediate Level</li>
-              <li>Nextjs- Intermediate Level</li>
-              <li>Matlab- Beginner Level</li>
-              <li>Django- Novice/Learning</li>
-            </ul>
+            <UnorderedList>
+              <ListItem>Python- Intermediate Level</ListItem>
+              <ListItem>Javascript- Intermediate Level</ListItem>
+              <ListItem>Html- Expert Level</ListItem>
+              <ListItem>CSS- Expert Level</ListItem>
+              <ListItem>Reactjs- Intermediate Level</ListItem>
+              <ListItem>Nextjs- Intermediate Level</ListItem>
+              <ListItem>Matlab- Beginner Level</ListItem>
+              <ListItem>Django- Novice/Learning</ListItem>
+            </UnorderedList>
           </p>
           <p>
             I live in Gurugram, Haryana, India and am fluent in English & Hindi.
@@ -61,8 +100,9 @@ function Details() {
             <b>Projects:</b> Currently working on developing my personal
             portfolio based on NextJS.
           </p>
-      </h3>
-    </div>
+        </h3>
+      </Flex>
+    </Flex>
   );
 }
 

@@ -1,9 +1,9 @@
-import classes from './Projects.module.css';
+import { Flex, Heading } from '@chakra-ui/react';
 
 export default function Project() {
   return (
-    <div className={classes.project}>
-      <h1>The projects will be updated soon!</h1>
-    </div>
+    <Flex>
+      <Heading marginTop="8rem" fontFamily="cursive">The projects will be updated soon!</Heading>
+    </Flex>
   );
 }
