@@ -8,9 +8,7 @@ export default function Activity() {
       padding="1rem"
       marginTop="5rem"
       flexDirection="column"
-      bgColor="blue.900"
       paddingBottom="2000"
-      textColor="white"
     >
       <Heading fontFamily="cursive" as="h1" size="4xl">
         Activities
@@ -21,7 +19,13 @@ export default function Activity() {
       <p>
         I have worked in
         <u>
-          <Link _hover={{ color: 'blue.600' }} href="http://www.eklavyatrust.org/"> Eklavya NGO school </Link>
+          <Link
+            _hover={{ color: 'blue.600' }}
+            href="http://www.eklavyatrust.org/"
+          >
+            {' '}
+            Eklavya NGO school{' '}
+          </Link>
         </u>
         as a science and maths teacher for classes 9th, 10th and 11th. I have
         worked in this NGO for 2 months and looking forward to work in many

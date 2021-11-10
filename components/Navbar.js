@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import {
+  useColorMode,
+  Switch,
   Flex,
   Button,
   IconButton,
@@ -8,9 +10,11 @@ import { HamburgerIcon, CloseIcon, EmailIcon } from '@chakra-ui/icons';
 import NextLink from 'next/link';
 
 export default function Navbar() {
+  const { colorMode, toggleColorMode } = useColorMode()
+  const isDark = colorMode === 'dark'
   const [display, changeDisplay] = useState('none');
   return (
-    <Flex textColor="white">
+    <Flex>
       <Flex
         bgGradient="linear(to-r, blue.400, pink.400, yellow.400)"
         position="fixed"
@@ -55,6 +59,12 @@ export default function Navbar() {
               <EmailIcon />Email me
             </Button>
           </NextLink>
+          <Switch
+          padding="1rem"
+          color="green"
+          isChecked={isDark}
+          onChange={toggleColorMode}
+        />
         </Flex>
 
         {/* Mobile */}

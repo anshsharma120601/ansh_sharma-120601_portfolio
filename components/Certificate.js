@@ -2,7 +2,7 @@ import { Flex, Image } from '@chakra-ui/react';
 
 export default function Certificate() {
   return (
-    <Flex bgColor="blue.900" textColor="white" paddingBottom="500">
+    <Flex paddingBottom="500">
       <Image
         _hover={{ h: '35rem', w: '45rem' }}
         cursor="pointer"

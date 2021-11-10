@@ -2,9 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
   "/": "pages/index.js",
-  "/certificates": "pages/certificates.js",
-  "/resume": "pages/resume.js",
-  "/my_projects": "pages/my_projects.js",
-  "/activities": "pages/activities.js"
+  "/activities": "pages/activities.js",
+  "/my_projects": "pages/my_projects.js"
 }
