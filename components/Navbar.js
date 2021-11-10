@@ -10,7 +10,7 @@ import NextLink from 'next/link';
 export default function Navbar() {
   const [display, changeDisplay] = useState('none');
   return (
-    <Flex>
+    <Flex textColor="white">
       <Flex
         bgGradient="linear(to-r, blue.400, pink.400, yellow.400)"
         position="fixed"

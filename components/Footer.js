@@ -7,6 +7,7 @@ export default function Footer() {
       fontWeight="900"
       position="fixed"
       bottom="0rem"
+      textColor="white"
       flexDirection="column"
       bgGradient="linear(to-t, blue.200, transparent)"
       alignItems="flex-end"
