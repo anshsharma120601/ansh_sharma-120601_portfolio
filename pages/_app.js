@@ -15,7 +15,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       {loading ? (
-        <Flex margin="20rem"><RingLoader color={'#04F8C8'} loading={loading} size={200} /></Flex>
+        <Flex margin={['5rem', '10rem', '10rem', '10rem']}>
+          <RingLoader color={'#04F8C8'} loading={loading} size={100} />
+        </Flex>
       ) : (
         <ChakraProvider>
           <Navbar />
