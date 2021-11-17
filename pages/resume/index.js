@@ -14,8 +14,8 @@ function resume() {
   return (
     <div>
       {loading ? (
-        <Flex margin="20rem">
-          <RingLoader color={'#04F8C8'} loading={loading} size={200} />
+        <Flex margin={['7rem', '25rem', '25rem', '25rem']}>
+          <RingLoader color={'#04F8C8'} loading={loading} size={100} />
         </Flex>
       ) : (
         <div>

@@ -14,7 +14,7 @@ export default function Projects() {
   return (
     <div>
       {loading ? (
-        <Flex margin={['5rem', '10rem', '10rem', '10rem']}>
+        <Flex margin={['7rem', '25rem', '25rem', '25rem']}>
           <RingLoader color={'#04F8C8'} loading={loading} size={100} />
         </Flex>
       ) : (
