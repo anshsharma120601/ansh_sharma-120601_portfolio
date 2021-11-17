@@ -15,7 +15,7 @@ export default function Projects() {
     <div>
       {loading ? (
         <Flex
-          padding={['8rem', '0rem', '0rem', '0rem']}
+          padding={['8.5rem', '0rem', '0rem', '0rem']}
           margin={['0.1rem', '25rem', '25rem', '25rem']}
         >
           <RingLoader color={'#04F8C8'} loading={loading} size={100} />
