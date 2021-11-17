@@ -4,7 +4,7 @@ export default function Activity() {
   return (
     <Flex
       fontFamily="sans-serif"
-      fontSize={['10', 'xl', 'xl', 'xl']}
+      fontSize={['4rem', 'xl', 'xl', 'xl']}
       paddingTop={['10rem', '4.5rem', '4.5rem', '4.5rem']}
       margin={['0.5rem', '0.5rem', '0.5rem', '0.5rem']}
       paddingRight={['0rem', '0rem', '0rem', '0rem']}

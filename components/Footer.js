@@ -18,8 +18,8 @@ export default function Footer() {
       <Flex flexDirection="column" align="flex-end">
         <Button
           pos="fixed"
-          marginTop={['0.2rem', '5.5rem', '5.5rem', '5.5rem']}
-          marginRight="0.5rem"
+          marginTop={['0.1rem', '5.5rem', '5.5rem', '5.5rem']}
+          marginRight={['0.2rem', '0.5rem', '0.5rem', '0.5rem']}
           width={['3rem', '4rem', '4rem', '4rem']}
           height={['3rem', '4rem', '4rem', '4rem']}
           onClick={onToggle}

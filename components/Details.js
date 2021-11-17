@@ -12,7 +12,7 @@ import { DiPython, DiJavascript1 } from 'react-icons/di';
 function Details() {
   return (
     <Flex
-      paddingTop={['10rem', '4.5rem', '4.5rem', '4.5rem']}
+      paddingTop={['4rem', '4.5rem', '4.5rem', '4.5rem']}
       margin={['0.5rem', '0.5rem', '0.5rem', '0.5rem']}
       paddingRight={['0rem', '0rem', '0rem', '0rem']}
       paddingLeft={['0rem', '0rem', '0rem', '0rem']}
