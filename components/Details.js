@@ -12,9 +12,8 @@ import { DiPython, DiJavascript1 } from 'react-icons/di';
 function Details() {
   return (
     <Flex
-      marginTop={['-8rem', '5.5rem', '5.5rem', '5.5rem']}
-      marginLeft={['0.5rem', '1rem', '1rem', '1rem']}
-      paddingTop={['12rem', '1rem', '1rem', '1rem']}
+      padding={['0.5rem', '1rem', '1rem', '1rem']}
+      marginTop={['3rem', '4rem', '4rem', '4rem']}
       flexDirection="column"
       fontFamily="sans-serif"
     >

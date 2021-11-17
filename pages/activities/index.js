@@ -14,7 +14,10 @@ export default function Activities() {
   return (
     <div>
       {loading ? (
-        <Flex margin={['7rem', '25rem', '25rem', '25rem']}>
+        <Flex
+          padding={['8rem', '0rem', '0rem', '0rem']}
+          margin={['0.1rem', '25rem', '25rem', '25rem']}
+        >
           <RingLoader color={'#04F8C8'} loading={loading} size={100} />
         </Flex>
       ) : (
