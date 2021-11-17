@@ -6,7 +6,7 @@ export default function Activity() {
       fontFamily="sans-serif"
       fontSize={['10', 'xl', 'xl', 'xl']}
       padding={['0.5rem', '1rem', '1rem', '1rem']}
-      marginTop={['0.5rem', '0.5rem', '0.5rem', '0.5rem']}
+      marginTop={['3rem', '4rem', '4rem', '4rem']}
       flexDirection="column"
     >
       <Heading
