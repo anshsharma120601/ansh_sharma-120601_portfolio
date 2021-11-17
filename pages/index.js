@@ -14,7 +14,10 @@ export default function Home() {
   return (
     <div>
       {loading ? (
-        <Flex margin={['7rem', '25rem', '25rem', '25rem']}>
+        <Flex
+          paddingTop={['-5rem', '0rem', '0rem', '0rem']}
+          margin={['7rem', '25rem', '25rem', '25rem']}
+        >
           <RingLoader color={'#04F8C8'} loading={loading} size={100} />
         </Flex>
       ) : (
