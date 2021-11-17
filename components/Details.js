@@ -7,14 +7,15 @@ import {
   Heading,
 } from '@chakra-ui/react';
 
-import { DiPython, DiJavascript1 } from 'react-icons/di'
+import { DiPython, DiJavascript1 } from 'react-icons/di';
 
 function Details() {
   return (
     <Flex
-      marginTop={['2.5rem', '4.5rem', '4.5rem', '4.5rem']}
+      marginTop={['3.5rem', '5.5rem', '5.5rem', '5.5rem']}
+      marginLeft={['0.5rem', '1rem', '1rem', '1rem']}
+      marginRight={['0.5rem', '1rem', '1rem', '1rem']}
       flexDirection="column"
-      padding="4"
       fontFamily="sans-serif"
     >
       <Heading
@@ -41,7 +42,7 @@ function Details() {
         flexDirection="column"
         marginTop="2"
         alignItems="flex-start"
-        fontSize={['14', '21', '21', '21']}
+        fontSize={['17', '23', '23', '23']}
         paddingBottom="10rem"
       >
         <h3>
@@ -67,8 +68,18 @@ function Details() {
           <p>
             <b>Coding Languages :</b>
             <UnorderedList>
-              <ListItem><Flex flexDirection="row">Python- Intermediate Level<DiPython /></Flex></ListItem>
-              <ListItem><Flex flexDirection="row">Javascript- Intermediate Level<DiJavascript1 /></Flex></ListItem>
+              <ListItem>
+                <Flex flexDirection="row">
+                  Python- Intermediate Level
+                  <DiPython />
+                </Flex>
+              </ListItem>
+              <ListItem>
+                <Flex flexDirection="row">
+                  Javascript- Intermediate Level
+                  <DiJavascript1 />
+                </Flex>
+              </ListItem>
               <ListItem>Html- Expert Level</ListItem>
               <ListItem>CSS- Expert Level</ListItem>
               <ListItem>Reactjs- Intermediate Level</ListItem>
@@ -100,7 +111,9 @@ function Details() {
             <b>Projects:</b> Currently working on developing my personal
             portfolio based on NextJS.
           </p>
-          <p><b>Hardware I use:</b></p>
+          <p>
+            <b>Hardware I use:</b>
+          </p>
         </h3>
       </Flex>
     </Flex>

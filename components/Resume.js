@@ -9,7 +9,7 @@ function Resume() {
         borderRadius="13px"
         h={['27rem', '40rem', '40rem', '40rem']}
         w={['18rem', '30rem', '30rem', '30rem']}
-        src="https://media-exp1.licdn.com/media/AAYUAQR3AAgAAQAAAAAAAD7uosv67NvLR86tnJPtFrKNVQ.png"
+        src="https://media-exp1.licdn.com/media/AAYUAQR3AAgAAQAAAAAAAC4MMq2F3EzESwOKdLG4z-m2jQ.png"
       />
     </Flex>
   );
