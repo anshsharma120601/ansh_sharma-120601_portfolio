@@ -3,7 +3,17 @@ import { Flex, Heading } from '@chakra-ui/react';
 export default function Project() {
   return (
     <Flex>
-      <Heading marginTop="8rem" fontFamily="cursive">The projects will be updated soon!</Heading>
+      <Heading
+        background="-webkit-linear-gradient(white, blue)"
+        bgClip="text"
+        textColor="transparent"
+        marginTop="8rem"
+        textAlign="center"
+        w="full"
+        fontFamily="cursive"
+      >
+        The projects will be updated soon!
+      </Heading>
     </Flex>
   );
 }

@@ -7,28 +7,41 @@ import {
   Heading,
 } from '@chakra-ui/react';
 
+import { DiPython, DiJavascript1 } from 'react-icons/di'
+
 function Details() {
   return (
     <Flex
-      marginTop="4.3rem"
+      marginTop={['2rem', '4.2rem', '4.2rem', '4.2rem']}
       flexDirection="column"
       padding="4"
       fontFamily="sans-serif"
     >
       <Heading
-        fontSize="32px"
+        fontSize={['28px', '64px', '64px', '64px']}
         fontFamily="cursive"
         background="-webkit-linear-gradient(red, gold)"
-        backgroundClip="text"
+        bgClip="text"
+        textColor="transparent"
       >
         Ansh Sharma Portfolio
       </Heading>
-      <Flex cursor="pointer"><Image bgColor="white" padding="0.2rem" h="28rem" w="20rem" borderRadius="13px" src="https://scontent.fdel27-3.fna.fbcdn.net/v/t1.6435-9/34809123_1898037376926116_2863706299722366976_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=M-DvgoKZmlgAX_cBcuk&_nc_ht=scontent.fdel27-3.fna&oh=21c4e808f795885c6b33d05b8cc71d1d&oe=61B05ADB"></Image></Flex>
+      <Flex>
+        <Image
+          cursor="pointer"
+          bgColor="white"
+          padding="0.2rem"
+          h={['18rem', '28rem', '28rem', '28rem']}
+          w={['12rem', '20rem', '20rem', '20rem']}
+          borderRadius={['40px', '13px', '13px', '13px']}
+          src="https://scontent.fdel27-3.fna.fbcdn.net/v/t1.6435-9/34809123_1898037376926116_2863706299722366976_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=M-DvgoKZmlgAX_cBcuk&_nc_ht=scontent.fdel27-3.fna&oh=21c4e808f795885c6b33d05b8cc71d1d&oe=61B05ADB"
+        />
+      </Flex>
       <Flex
         flexDirection="column"
         marginTop="2"
         alignItems="flex-start"
-        fontSize="18"
+        fontSize={['10', '18', '18', '18']}
         paddingBottom="10rem"
       >
         <h3>
@@ -54,8 +67,8 @@ function Details() {
           <p>
             <b>Coding Languages :</b>
             <UnorderedList>
-              <ListItem>Python- Intermediate Level</ListItem>
-              <ListItem>Javascript- Intermediate Level</ListItem>
+              <ListItem><Flex flexDirection="row">Python- Intermediate Level<DiPython /></Flex></ListItem>
+              <ListItem><Flex flexDirection="row">Javascript- Intermediate Level<DiJavascript1 /></Flex></ListItem>
               <ListItem>Html- Expert Level</ListItem>
               <ListItem>CSS- Expert Level</ListItem>
               <ListItem>Reactjs- Intermediate Level</ListItem>
@@ -87,6 +100,7 @@ function Details() {
             <b>Projects:</b> Currently working on developing my personal
             portfolio based on NextJS.
           </p>
+          <p><b>Hardware I use:</b></p>
         </h3>
       </Flex>
     </Flex>

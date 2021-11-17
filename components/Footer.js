@@ -1,51 +1,75 @@
-import { PhoneIcon } from '@chakra-ui/icons';
-import { Flex, Image, Link } from '@chakra-ui/react';
+import {
+  Button,
+  Slide,
+  Box,
+  Flex,
+  Avatar,
+  Text,
+  useDisclosure,
+  Link,
+  color,
+} from '@chakra-ui/react';
+import { AiFillInstagram, AiFillFacebook, AiFillPhone, AiFillGithub } from 'react-icons/ai';
 
 export default function Footer() {
+  const { isOpen, onToggle } = useDisclosure();
   return (
-    <Flex flexDirection="column" alignItems="center">
-      <Flex position="fixed" padding="1" fontWeight="900" bottom="0">
-        Copyright reserved @Ansh Sharma.
+    <>
+      <Flex flexDirection="column" align="flex-end">
+        <Button
+          pos="fixed"
+          marginTop={['0.2rem', '5.5rem', '5.5rem', '5.5rem']}
+          marginRight="0.5rem"
+          width={['3rem', '4rem', '4rem', '4rem']}
+          height={['3rem', '4rem', '4rem', '4rem']}
+          onClick={onToggle}
+          borderRadius="full"
+        >
+          <Avatar
+            height="3rem"
+            width="3rem"
+            src="https://instagram.fdel1-1.fna.fbcdn.net/v/t51.2885-15/e35/p480x480/257784472_881861415719601_1613884494209547938_n.jpg?_nc_ht=instagram.fdel1-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=eMxqzgUWTk8AX_QaZCA&edm=ABJHkxYAAAAA&ccb=7-4&oh=2dcc6a3dc061d12433c6ebd1a4bfa698&oe=619BB6A3&_nc_sid=fa978c&ig_cache_key=MjcwODg5NzY4NzQ5MDQzNTc4MA%3D%3D.2-ccb7-4"
+          />
+        </Button>
       </Flex>
-      <Flex
-        fontWeight="900"
-        position="fixed"
-        bottom="0rem"
-        flexDirection="row"
-        bgGradient="linear(to-t, blue.200, transparent)"
-        padding="1rem"
-        width="full"
-        h="4rem"
-        paddingBottom="3.5rem"
-      >
-        <Flex padding="1" marginLeft="1rem">
-          <PhoneIcon />7011061359
-        </Flex>
-        <Flex padding="1" marginLeft="1rem">
-          <Link
-            _hover={{ color: 'blue.600' }}
-            href="<https://github.com/anshsharma120601"
-          >
-            <Image
-              h="6"
-              borderRadius="6px"
-              src="https://e7.pngegg.com/pngimages/914/758/png-clipart-computer-icons-logo-github-github-logo-logo-computer-program-thumbnail.png"
-            />
-          </Link>
-        </Flex>
-        <Flex padding="1" marginLeft="1rem">
-          <Link
-            _hover={{ color: 'blue.600' }}
-            href="https://www.instagram.com/anshsharma1206/"
-          >
-            <Image
-              h="6"
-              borderRadius="6px"
-              src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-app/instagram.jpg?itok=Pyl371sg"
-            />
-          </Link>
-        </Flex>
-      </Flex>
-    </Flex>
+      <Slide direction="bottom" in={isOpen} style={{ zIndex: 10 }}>
+        <Box
+          p="40px"
+          color="white"
+          mt="4"
+          bg="#7DF9FF"
+          rounded="md"
+          shadow="md"
+        >
+          <Flex flexDirection="column" align="center">
+            <Flex flexDirection="row">
+              7011061359
+              <AiFillPhone />
+            </Flex>
+            <Link _hover={{ color: 'blue.600' }} href="https://github.com/anshsharma120601">
+              <Flex flexDirection="row">
+                Github
+                <AiFillGithub />
+              </Flex>
+            </Link>
+            <Link _hover={{ color: 'blue.600' }} href="https://www.instagram.com/anshsharma1206/">
+              <Flex flexDirection="row">
+                Instagram
+                <AiFillInstagram />
+              </Flex>
+            </Link>
+            <Link _hover={{ color: 'blue.600' }} href="https://www.facebook.com/profile.php?id=100001596154001">
+              <Flex flexDirection="row">
+                Facebook
+                <AiFillFacebook />
+              </Flex>
+            </Link>
+            <Text fontWeight="bold" fontSize="20">
+              Copyright @ Ansh Sharma.
+            </Text>
+          </Flex>
+        </Box>
+      </Slide>
+    </>
   );
 }

@@ -4,15 +4,22 @@ export default function Activity() {
   return (
     <Flex
       fontFamily="sans-serif"
-      fontSize="xl"
-      padding="1rem"
-      marginTop="5rem"
+      fontSize={['10', 'xl', 'xl', 'xl']}
+      padding={['0.5rem', '1rem', '1rem', '1rem']}
+      marginTop={['0.5rem', '0.5rem', '0.5rem', '0.5rem']}
       flexDirection="column"
     >
-      <Heading fontFamily="cursive" as="h1" size="4xl">
+      <Heading
+        fontFamily="cursive"
+        as="h1"
+        fontSize={['30', '54', '54', '54']}
+        background="-webkit-linear-gradient(green, yellow)"
+        bgClip="text"
+        textColor="transparent"
+      >
         Activities
       </Heading>
-      <Heading as="h2" size="2xl" fontWeight="thin">
+      <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
         Working in NGOs
       </Heading>
       <p>
@@ -32,17 +39,17 @@ export default function Activity() {
       </p>
 
       <Image
-        h="18rem"
-        w="20rem"
-        cursor="pointer"
-        margin="0.5rem"
-        borderRadius="13px"
-        bgColor="white"
+        h={['13rem', '18rem', '18rem', '18rem']}
+        w={['12rem', '20rem', '20rem', '20rem']}
+        margin={['0.3rem', '0.5rem', '0.5rem', '0.5rem']}
         padding="0.2rem"
+        borderRadius={['50px', '13px', '13px', '13px']}
+        cursor="pointer"
+        bgColor="white"
         src="https://images.newindianexpress.com/uploads/user/imagelibrary/2021/2/7/w1200X800/This_ngo_leads_fight.jpg"
       />
 
-      <Heading as="h2" size="2xl" fontWeight="thin">
+      <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
         Odyssey of Mind
       </Heading>
       <p>
@@ -52,17 +59,17 @@ export default function Activity() {
       </p>
 
       <Image
-        h="18rem"
-        w="40rem"
-        cursor="pointer"
-        margin="0.5rem"
-        borderRadius="13px"
-        bgColor="white"
+        h={['6rem', '18rem', '18rem', '18rem']}
+        w={['30rem', '40rem', '60rem', '60rem']}
+        margin={['0.1rem', '0.5rem', '0.5rem', '0.5rem']}
         padding="0.2rem"
+        borderRadius={['50px', '13px', '13px', '13px']}
+        cursor="pointer"
+        bgColor="white"
         src="https://www.odysseyofthemind.com/wp-content/uploads/2021/06/OM-Full-Logo-1.png"
       />
 
-      <Heading as="h2" size="2xl" fontWeight="thin">
+      <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
         Amity Cadet Corps
       </Heading>
       <p>
@@ -72,17 +79,17 @@ export default function Activity() {
         a week, everything was adventurous and fun.
       </p>
       <Image
-        h="18rem"
-        w="20rem"
-        cursor="pointer"
-        margin="0.5rem"
-        borderRadius="13px"
-        bgColor="white"
+        h={['13rem', '18rem', '18rem', '18rem']}
+        w={['12rem', '20rem', '20rem', '20rem']}
+        margin={['0.3rem', '0.5rem', '0.5rem', '0.5rem']}
         padding="0.2rem"
+        borderRadius={['50px', '13px', '13px', '13px']}
+        cursor="pointer"
+        bgColor="white"
         src="https://avatars.githubusercontent.com/u/81307379?s=400&u=808940eb4ed826e74fa3382e9b76d6e18900b938&v=4"
       />
 
-      <Heading as="h2" size="2xl" fontWeight="thin">
+      <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
         Playing Guitar
       </Heading>
       <p>
@@ -92,17 +99,17 @@ export default function Activity() {
         many small bands and functions also.
       </p>
       <Image
-        h="18rem"
-        w="20rem"
-        cursor="pointer"
-        margin="0.5rem"
-        borderRadius="13px"
-        bgColor="white"
+        h={['10rem', '18rem', '18rem', '18rem']}
+        w={['18rem', '20rem', '20rem', '20rem']}
+        margin={['0.3rem', '0.5rem', '0.5rem', '0.5rem']}
         padding="0.2rem"
+        borderRadius={['50px', '13px', '13px', '13px']}
+        cursor="pointer"
+        bgColor="white"
         src="https://www.trinitycollege.com/images/news/news_placeholder.png"
       />
 
-      <Heading as="h2" size="2xl" fontWeight="thin">
+      <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
         Bike Riding
       </Heading>
       <p>
@@ -111,13 +118,13 @@ export default function Activity() {
         body and 2wheels carry soul.
       </p>
       <Image
-        h="18rem"
-        w="20rem"
-        cursor="pointer"
-        margin="0.5rem"
-        borderRadius="13px"
-        bgColor="white"
+        h={['13rem', '18rem', '18rem', '18rem']}
+        w={['12rem', '20rem', '20rem', '20rem']}
+        margin={['0.3rem', '0.5rem', '0.5rem', '0.5rem']}
         padding="0.2rem"
+        borderRadius={['50px', '13px', '13px', '13px']}
+        cursor="pointer"
+        bgColor="white"
         src="https://lh3.googleusercontent.com/a-/AOh14GgjKEwyvRlxVNQjf-qL3INXAMQiRpIpMXuJ6TYvkw=s288-p-rw-no"
       />
     </Flex>
