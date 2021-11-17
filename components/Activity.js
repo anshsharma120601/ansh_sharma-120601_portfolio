@@ -5,8 +5,10 @@ export default function Activity() {
     <Flex
       fontFamily="sans-serif"
       fontSize={['10', 'xl', 'xl', 'xl']}
-      padding={['0.5rem', '1rem', '1rem', '1rem']}
-      marginTop={['3rem', '4rem', '4rem', '4rem']}
+      paddingTop={['3.5rem', '4.5rem', '4.5rem', '4.5rem']}
+      margin={['0.5rem', '0.5rem', '0.5rem', '0.5rem']}
+      paddingRight={['0rem', '0rem', '0rem', '0rem']}
+      paddingLeft={['0rem', '0rem', '0rem', '0rem']}
       flexDirection="column"
     >
       <Heading
