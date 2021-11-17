@@ -15,8 +15,8 @@ export default function Home() {
     <div>
       {loading ? (
         <Flex
-          padding={['5rem', '0rem', '0rem', '0rem']}
-          margin={['1rem', '25rem', '25rem', '25rem']}
+          padding={['7rem', '0rem', '0rem', '0rem']}
+          margin={['0.2rem', '25rem', '25rem', '25rem']}
         >
           <RingLoader color={'#04F8C8'} loading={loading} size={100} />
         </Flex>
