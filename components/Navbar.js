@@ -21,6 +21,7 @@ export default function Navbar() {
         top="0rem"
         align="center"
         width="full"
+        borderRadius="13px"
       >
         {/* Desktop */}
         <Switch

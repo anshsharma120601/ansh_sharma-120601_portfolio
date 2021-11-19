@@ -3,13 +3,14 @@ import { Flex, Link, Image, Heading } from '@chakra-ui/react';
 export default function Activity() {
   return (
     <Flex
-      fontFamily="sans-serif"
-      fontSize={['17', 'xl', 'xl', 'xl']}
+      fontFamily="font-family: 'Inter', sans-serif;"
+      fontSize={['14', 'xl', 'xl', 'xl']}
       paddingTop={['4rem', '4.5rem', '4.5rem', '4.5rem']}
-      margin={['0.5rem', '0.5rem', '0.5rem', '0.5rem']}
+      margin={['1rem', '1rem', '1rem', '1rem']}
       paddingRight={['0rem', '0rem', '0rem', '0rem']}
       paddingLeft={['0rem', '0rem', '0rem', '0rem']}
       flexDirection="column"
+      letterSpacing="1.5px"
     >
       <Heading
         fontFamily="cursive"
@@ -48,6 +49,7 @@ export default function Activity() {
         borderRadius={['50px', '13px', '13px', '13px']}
         cursor="pointer"
         bgColor="white"
+        objectFit="cover"
         src="https://images.newindianexpress.com/uploads/user/imagelibrary/2021/2/7/w1200X800/This_ngo_leads_fight.jpg"
       />
 
@@ -68,6 +70,7 @@ export default function Activity() {
         borderRadius={['50px', '13px', '13px', '13px']}
         cursor="pointer"
         bgColor="white"
+        objectFit="contain"
         src="https://www.odysseyofthemind.com/wp-content/uploads/2021/06/OM-Full-Logo-1.png"
       />
 
@@ -87,6 +90,7 @@ export default function Activity() {
         padding="0.2rem"
         borderRadius={['50px', '13px', '13px', '13px']}
         cursor="pointer"
+        objectFit="cover"
         bgColor="white"
         src="https://avatars.githubusercontent.com/u/81307379?s=400&u=808940eb4ed826e74fa3382e9b76d6e18900b938&v=4"
       />
@@ -102,11 +106,12 @@ export default function Activity() {
       </p>
       <Image
         h={['10rem', '18rem', '18rem', '18rem']}
-        w={['18rem', '20rem', '20rem', '20rem']}
+        w={['18rem', '25rem', '25rem', '25rem']}
         margin={['0.3rem', '0.5rem', '0.5rem', '0.5rem']}
         padding="0.2rem"
         borderRadius={['50px', '13px', '13px', '13px']}
         cursor="pointer"
+        objectFit="cover"
         bgColor="white"
         src="https://www.trinitycollege.com/images/news/news_placeholder.png"
       />
@@ -127,6 +132,7 @@ export default function Activity() {
         borderRadius={['50px', '13px', '13px', '13px']}
         cursor="pointer"
         bgColor="white"
+        objectFit="cover"
         src="https://lh3.googleusercontent.com/a-/AOh14GgjKEwyvRlxVNQjf-qL3INXAMQiRpIpMXuJ6TYvkw=s288-p-rw-no"
       />
     </Flex>

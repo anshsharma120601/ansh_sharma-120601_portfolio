@@ -13,11 +13,12 @@ function Details() {
   return (
     <Flex
       paddingTop={['4rem', '4.5rem', '4.5rem', '4.5rem']}
-      margin={['0.5rem', '0.5rem', '0.5rem', '0.5rem']}
+      margin={['1rem', '1rem', '1rem', '1rem']}
       paddingRight={['0rem', '0rem', '0rem', '0rem']}
       paddingLeft={['0rem', '0rem', '0rem', '0rem']}
       flexDirection="column"
-      fontFamily="sans-serif"
+      fontFamily="font-family: 'Inter', sans-serif;"
+      letterSpacing="1.5px"
     >
       <Heading
         fontSize={['28px', '64px', '64px', '64px']}
@@ -35,6 +36,7 @@ function Details() {
           padding="0.2rem"
           h={['18rem', '28rem', '28rem', '28rem']}
           w={['12rem', '20rem', '20rem', '20rem']}
+          objectFit="cover"
           borderRadius={['40px', '13px', '13px', '13px']}
           src="https://scontent.fdel27-3.fna.fbcdn.net/v/t1.6435-9/34809123_1898037376926116_2863706299722366976_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=M-DvgoKZmlgAX_cBcuk&_nc_ht=scontent.fdel27-3.fna&oh=21c4e808f795885c6b33d05b8cc71d1d&oe=61B05ADB"
         />
@@ -43,7 +45,7 @@ function Details() {
         flexDirection="column"
         marginTop="2"
         alignItems="flex-start"
-        fontSize={['17', '23', '23', '23']}
+        fontSize={['14', '23', '23', '23']}
         paddingBottom="10rem"
       >
         <h3>

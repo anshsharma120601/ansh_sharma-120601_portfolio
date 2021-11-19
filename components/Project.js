@@ -9,6 +9,7 @@ export default function Project() {
         textColor="transparent"
         marginTop="8rem"
         textAlign="center"
+        letterSpacing="2px"
         w="full"
         fontFamily="cursive"
       >
