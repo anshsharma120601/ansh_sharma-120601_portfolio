@@ -17,8 +17,8 @@ function Details() {
       paddingRight={['0rem', '0rem', '0rem', '0rem']}
       paddingLeft={['0rem', '0rem', '0rem', '0rem']}
       flexDirection="column"
-      fontFamily="font-family: 'Inter', sans-serif;"
-      letterSpacing="1.5px"
+      fontFamily="font-family: 'Inter', sans-serif"
+      
     >
       <Heading
         fontSize={['28px', '64px', '64px', '64px']}

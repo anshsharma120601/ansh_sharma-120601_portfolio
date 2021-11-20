@@ -3,14 +3,13 @@ import { Flex, Link, Image, Heading } from '@chakra-ui/react';
 export default function Activity() {
   return (
     <Flex
-      fontFamily="font-family: 'Inter', sans-serif;"
+      fontFamily="font-family: 'Inter', sans-serif"
       fontSize={['14', 'xl', 'xl', 'xl']}
       paddingTop={['4rem', '4.5rem', '4.5rem', '4.5rem']}
       margin={['1rem', '1rem', '1rem', '1rem']}
       paddingRight={['0rem', '0rem', '0rem', '0rem']}
       paddingLeft={['0rem', '0rem', '0rem', '0rem']}
       flexDirection="column"
-      letterSpacing="1.5px"
     >
       <Heading
         fontFamily="cursive"
