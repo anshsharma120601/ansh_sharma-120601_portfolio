@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/activities": "pages/activities.js",
-  "/": "pages/index.js",
-  "/resume": "pages/resume.js",
-  "/certificates": "pages/certificates.js"
+  "/": "pages/index.js"
 }

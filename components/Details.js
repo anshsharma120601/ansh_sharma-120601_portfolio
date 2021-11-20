@@ -12,13 +12,14 @@ import { DiPython, DiJavascript1 } from 'react-icons/di';
 function Details() {
   return (
     <Flex
-      paddingTop={['4rem', '4.5rem', '4.5rem', '4.5rem']}
-      margin={['1rem', '1rem', '1rem', '1rem']}
+      marginTop={['4rem', '5.5rem', '5.5rem', '5.5rem']}
+      padding="2"
+      marginRight={['1rem', '1rem', '1rem', '1rem']}
+      marginLeft={['1rem', '1rem', '1rem', '1rem']}
       paddingRight={['0rem', '0rem', '0rem', '0rem']}
       paddingLeft={['0rem', '0rem', '0rem', '0rem']}
       flexDirection="column"
       fontFamily="font-family: 'Inter', sans-serif"
-      
     >
       <Heading
         fontSize={['28px', '64px', '64px', '64px']}
@@ -113,9 +114,6 @@ function Details() {
           <p>
             <b>Projects:</b> Currently working on developing my personal
             portfolio based on NextJS.
-          </p>
-          <p>
-            <b>Hardware I use:</b>
           </p>
         </h3>
       </Flex>
