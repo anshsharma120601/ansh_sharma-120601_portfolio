@@ -9,7 +9,12 @@ import {
   Link,
   color,
 } from '@chakra-ui/react';
-import { AiFillInstagram, AiFillFacebook, AiFillPhone, AiFillGithub } from 'react-icons/ai';
+import {
+  AiFillInstagram,
+  AiFillFacebook,
+  AiFillPhone,
+  AiFillGithub,
+} from 'react-icons/ai';
 
 export default function Footer() {
   const { isOpen, onToggle } = useDisclosure();
@@ -18,7 +23,8 @@ export default function Footer() {
       <Flex flexDirection="column" align="flex-end">
         <Button
           pos="fixed"
-          marginTop={['0.1rem', '5.5rem', '5.5rem', '5.5rem']}
+          marginTop={['0.1rem', '3rem', '3rem', '3rem']}
+          marginRight={['1rem', '1rem', '1rem', '1rem']}
           width={['3rem', '4rem', '4rem', '4rem']}
           height={['3rem', '4rem', '4rem', '4rem']}
           onClick={onToggle}
@@ -45,19 +51,28 @@ export default function Footer() {
               7011061359
               <AiFillPhone />
             </Flex>
-            <Link _hover={{ color: 'blue.600' }} href="https://github.com/anshsharma120601">
+            <Link
+              _hover={{ color: 'blue.600' }}
+              href="https://github.com/anshsharma120601"
+            >
               <Flex flexDirection="row">
                 Github
                 <AiFillGithub />
               </Flex>
             </Link>
-            <Link _hover={{ color: 'blue.600' }} href="https://www.instagram.com/anshsharma1206/">
+            <Link
+              _hover={{ color: 'blue.600' }}
+              href="https://www.instagram.com/anshsharma1206/"
+            >
               <Flex flexDirection="row">
                 Instagram
                 <AiFillInstagram />
               </Flex>
             </Link>
-            <Link _hover={{ color: 'blue.600' }} href="https://www.facebook.com/profile.php?id=100001596154001">
+            <Link
+              _hover={{ color: 'blue.600' }}
+              href="https://www.facebook.com/profile.php?id=100001596154001"
+            >
               <Flex flexDirection="row">
                 Facebook
                 <AiFillFacebook />

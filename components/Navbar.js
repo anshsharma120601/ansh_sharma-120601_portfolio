@@ -5,9 +5,12 @@ import {
   Flex,
   Button,
   IconButton,
+  Grid,
+  Spacer,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, EmailIcon } from '@chakra-ui/icons';
 import NextLink from 'next/link';
+import Footer from './Footer';
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -71,14 +74,17 @@ export default function Navbar() {
         </Flex>
 
         {/* Mobile */}
-        <IconButton
-          aria-label="Open Menu"
-          size="lg"
-          mr={2}
-          icon={<HamburgerIcon />}
-          onClick={() => changeDisplay('flex')}
-          display={['flex', 'flex', 'none', 'none']}
-        />
+        <Grid templateColumns="repeat(2, 1fr)" gap={['225', '0', '0', '0']}>
+          <IconButton
+            aria-label="Open Menu"
+            size="lg"
+            mr={2}
+            icon={<HamburgerIcon />}
+            onClick={() => changeDisplay('flex')}
+            display={['flex', 'flex', 'none', 'none']}
+          />
+          <Footer />
+        </Grid>
       </Flex>
 
       {/* Mobile Content */}
