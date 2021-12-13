@@ -6,11 +6,10 @@ import {
   Button,
   IconButton,
   Grid,
-  Spacer,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, EmailIcon } from '@chakra-ui/icons';
 import NextLink from 'next/link';
-import Footer from './Footer';
+import Popup from './Popup';
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -19,7 +18,7 @@ export default function Navbar() {
   return (
     <Flex>
       <Flex
-        bgGradient="linear(to-r, blue.400, pink.400, yellow.400)"
+        bgGradient="linear(to-r, red.400, pink.400, yellow.300, green.300, blue.400)"
         position="fixed"
         top="0rem"
         align="center"
@@ -53,9 +52,9 @@ export default function Navbar() {
             </Button>
           </NextLink>
 
-          <NextLink href="/my_projects" passHref>
+          <NextLink href="/my_blog" passHref>
             <Button as="a" variant="ghost" aria-label="Contact" my={5} w="100%">
-              My Projects
+              My Blog
             </Button>
           </NextLink>
 
@@ -83,7 +82,7 @@ export default function Navbar() {
             onClick={() => changeDisplay('flex')}
             display={['flex', 'flex', 'none', 'none']}
           />
-          <Footer />
+          <Popup />
         </Grid>
       </Flex>
 

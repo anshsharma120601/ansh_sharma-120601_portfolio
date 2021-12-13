@@ -5,9 +5,11 @@ import {
   ListItem,
   UnorderedList,
   Heading,
+  Text,
 } from '@chakra-ui/react';
 
 import { DiPython, DiJavascript1 } from 'react-icons/di';
+import VideoApp from './Video';
 
 function Details() {
   return (
@@ -18,6 +20,7 @@ function Details() {
       marginLeft={['1rem', '1rem', '1rem', '1rem']}
       paddingRight={['0rem', '0rem', '0rem', '0rem']}
       paddingLeft={['0rem', '0rem', '0rem', '0rem']}
+      marginBottom="-100"
       flexDirection="column"
       fontFamily="font-family: 'Inter', sans-serif"
     >
@@ -51,6 +54,16 @@ function Details() {
       >
         <h3>
           <p>
+            Electronics and Communication Engineer from
+            <Image
+              cursor="pointer"
+              objectFit="cover"
+              borderRadius="13px"
+              src="https://lh3.googleusercontent.com/proxy/6F0ifO4hik_EzW300yUm5zhrecUG4lsSPPBUIqkUGvMB6SN65frckd7Dj01mGOgDnA8EWdjt9GnwrWrVje3nLO_dR3zIKTr2a5dqXaWM6PumVeg"
+            ></Image>
+          </p>
+
+          <p>
             I have completed (2019)my Schooling / Undergraduation in science and
             maths (PCM) from
             <Link
@@ -62,7 +75,7 @@ function Details() {
             Pushp Vihar, Delhi, India.
           </p>
           <p>
-            <b>Graduation (2019-2024):</b> Netaji Subhash University of
+            <b>Graduation (2019-2023):</b> Netaji Subhash University of
             Technology
             <Link _hover={{ color: 'blue.600' }} href="http://aiactr.ac.in/">
               <u>(NSUT), East Campus</u>
@@ -116,6 +129,22 @@ function Details() {
             portfolio based on NextJS.
           </p>
         </h3>
+        <VideoApp />
+        <Flex flexDirection="column">
+          <Text fontWeight="bold" fontSize="30">
+            Hardware I use
+          </Text>
+          <Text color="red">
+            Apple MacBook Air MQD32HN/A Ultrabook (13.3 Inch | Core i5 5th Gen |
+            8 GB | macOS Sierra | 128 GB SSD)
+            <Image
+              objectFit="cover"
+              height="13rem"
+              width="20rem"
+              src="https://instagram.fdel1-1.fna.fbcdn.net/v/t51.2885-15/fr/e15/s1080x1080/265963000_1088375378657913_2729093761794569192_n.jpg?_nc_ht=instagram.fdel1-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=koqr84nnxhEAX9cfbxM&edm=ABJHkxYAAAAA&ccb=7-4&oh=3023dcf9d69b054782b0a971ad8c3b8c&oe=61B7D535&_nc_sid=fa978c&ig_cache_key=MjcyNDMyNjg2NTMwNDM2NTMwOA%3D%3D.2-ccb7-4"
+            ></Image>
+          </Text>
+        </Flex>
       </Flex>
     </Flex>
   );

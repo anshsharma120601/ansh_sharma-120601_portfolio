@@ -99,7 +99,7 @@ export default function Activity() {
       </Heading>
       <p>
         I was very passionate about playing guitar since my school days. I have
-        also cleared level3 grade guitar test from trinity college of London
+        also cleared level3 grade guitar test from Trinity college of London
         which one of the most toughest and professional guitar exams. I have in
         many small bands and functions also.
       </p>
@@ -112,7 +112,7 @@ export default function Activity() {
         cursor="pointer"
         objectFit="cover"
         bgColor="white"
-        src="https://www.trinitycollege.com/images/news/news_placeholder.png"
+        src="https://instagram.fdel1-1.fna.fbcdn.net/v/t51.2885-15/e35/p480x480/264509731_135560275513365_6762808580823926292_n.jpg?_nc_ht=instagram.fdel1-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=I3jS3jFQi3sAX8ukfMI&edm=ABJHkxYAAAAA&ccb=7-4&oh=8fd457b03cfc295b5d2d47fec7931490&oe=61B808C2&_nc_sid=fa978c&ig_cache_key=MjcyNDMyNzk4MDgwODM0MzE4Nw%3D%3D.2-ccb7-4"
       />
 
       <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
@@ -124,7 +124,7 @@ export default function Activity() {
         body and 2wheels carry soul.
       </p>
       <Image
-        h={['13rem', '18rem', '18rem', '18rem']}
+        h={['15rem', '20rem', '20rem', '20rem']}
         w={['12rem', '20rem', '20rem', '20rem']}
         margin={['0.3rem', '0.5rem', '0.5rem', '0.5rem']}
         padding="0.2rem"
@@ -132,7 +132,7 @@ export default function Activity() {
         cursor="pointer"
         bgColor="white"
         objectFit="cover"
-        src="https://lh3.googleusercontent.com/a-/AOh14GgjKEwyvRlxVNQjf-qL3INXAMQiRpIpMXuJ6TYvkw=s288-p-rw-no"
+        src="https://instagram.fdel1-5.fna.fbcdn.net/v/t51.2885-15/e15/p640x640/264820309_449652006775488_1221529932861561423_n.jpg?_nc_ht=instagram.fdel1-5.fna.fbcdn.net&_nc_cat=100&_nc_ohc=mmf18-tr-tQAX8buTkF&edm=ABJHkxYAAAAA&ccb=7-4&oh=179deac8f10033a52d34da3664448626&oe=61B71DD3&_nc_sid=fa978c&ig_cache_key=MjcyNDI4NzcwMzg1NDk5NTcyMQ%3D%3D.2-ccb7-4"
       />
     </Flex>
   );

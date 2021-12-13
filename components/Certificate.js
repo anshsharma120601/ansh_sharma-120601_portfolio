@@ -20,6 +20,7 @@ export default function Certificate() {
         borderRadius="3xl"
         marginTop={['1rem', '5.5rem', '5.5rem', '5.5rem']}
         marginLeft={['1rem', '2rem', '2rem', '2rem']}
+        marginBottom={['15rem', '15rem', '15rem', '15rem']}
         padding={['1', '2', '2', '2']}
         objectFit="cover"
         h={['15rem', '30rem', '30rem', '30rem']}

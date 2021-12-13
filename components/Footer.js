@@ -1,89 +1,253 @@
 import {
-  Button,
-  Slide,
   Box,
   Flex,
-  Avatar,
+  Grid,
   Text,
   useDisclosure,
   Link,
-  color,
+  useColorMode,
+  useColorModeValue,
+  Avatar,
+  Image,
+  GridItem,
 } from '@chakra-ui/react';
 import {
   AiFillInstagram,
   AiFillFacebook,
   AiFillPhone,
   AiFillGithub,
+  AiFillLinkedin,
+  AiFillBook,
 } from 'react-icons/ai';
+import { EmailIcon } from '@chakra-ui/icons';
 
 export default function Footer() {
-  const { isOpen, onToggle } = useDisclosure();
+  const { toggleColorMode } = useColorMode();
+
+  const bg = useColorModeValue('black', 'white');
+  const color = useColorModeValue('black', 'black');
+  const colorr = useColorModeValue('white', 'black');
   return (
-    <>
-      <Flex flexDirection="column" align="flex-end">
-        <Button
-          pos="fixed"
-          marginTop={['0.1rem', '3rem', '3rem', '3rem']}
-          marginRight={['1rem', '1rem', '1rem', '1rem']}
-          width={['3rem', '4rem', '4rem', '4rem']}
-          height={['3rem', '4rem', '4rem', '4rem']}
-          onClick={onToggle}
-          borderRadius="full"
+    <Flex flexDirection={['row', 'column', 'column', 'column']}>
+      <Box
+        bg={bg}
+        color={color}
+        height={['40rem', '30rem', '30rem', '30rem']}
+        width={['full', 'full', 'full', 'full']}
+        fontSize="18"
+        p={['2px', '40px', '40px', '40px']}
+        mt={['70', '4', '4', '4']}
+        shadow="md"
+        alignContent="flex-end"
+      >
+        <Grid
+          margin={['1rem', '', '', '']}
+          h={['400px', '300px', '300px', '300px']}
+          templateRows={[
+            'repeat(3, 1fr)',
+            'repeat(3, 1fr)',
+            'repeat(3, 1fr)',
+            'repeat(3, 1fr)',
+          ]}
+          templateColumns={[
+            'repeat(7, 1fr)',
+            'repeat(7, 1fr)',
+            'repeat(7, 1fr)',
+            'repeat(7, 1fr)',
+          ]}
+          gap={[1, 4, 4, 4]}
         >
-          <Avatar
-            height="3rem"
-            width="3rem"
-            src="https://instagram.fdel1-1.fna.fbcdn.net/v/t51.2885-15/e35/p480x480/257784472_881861415719601_1613884494209547938_n.jpg?_nc_ht=instagram.fdel1-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=eMxqzgUWTk8AX_QaZCA&edm=ABJHkxYAAAAA&ccb=7-4&oh=2dcc6a3dc061d12433c6ebd1a4bfa698&oe=619BB6A3&_nc_sid=fa978c&ig_cache_key=MjcwODg5NzY4NzQ5MDQzNTc4MA%3D%3D.2-ccb7-4"
-          />
-        </Button>
-      </Flex>
-      <Slide direction="bottom" in={isOpen} style={{ zIndex: 10 }}>
-        <Box
-          p="40px"
-          color="white"
-          mt="4"
-          bg="#7DF9FF"
-          rounded="md"
-          shadow="md"
-        >
-          <Flex flexDirection="column" align="center">
-            <Flex flexDirection="row">
+          <GridItem
+            color="white"
+            borderRadius="13"
+            rowSpan={[1, 3, 3, 3]}
+            colSpan={[6, 1, 1, 1]}
+            w={['full', 'full', 'full', 'full']}
+            h={['5rem', 'full', 'full', 'full']}
+            paddingLeft={['1rem', '', '', '']}
+            bg="black"
+          >
+            <Flex
+              marginTop={['1.5rem', '8rem', '8rem', '8rem']}
+              marginLeft={['7rem', '1rem', '1rem', '1rem']}
+            >
               7011061359
               <AiFillPhone />
             </Flex>
-            <Link
-              _hover={{ color: 'blue.600' }}
-              href="https://github.com/anshsharma120601"
+          </GridItem>
+          <GridItem
+            w={['7rem', 'full', 'full', 'full']}
+            h={['5rem', 'full', 'full', 'full']}
+            borderRadius="13"
+            rowSpan={1}
+            colSpan={2}
+            bg="gray.200"
+          >
+            <Flex
+              marginLeft={['1rem', '10rem', '10rem', '10rem']}
+              marginTop={['0.3rem', '1.5rem', '1.5rem', '1.5rem']}
             >
-              <Flex flexDirection="row">
-                Github
+              <Link
+                _hover={{ color: 'green.500' }}
+                href="https://github.com/anshsharma120601"
+              >
+                My Github
                 <AiFillGithub />
-              </Flex>
-            </Link>
-            <Link
-              _hover={{ color: 'blue.600' }}
-              href="https://www.instagram.com/anshsharma1206/"
+              </Link>
+            </Flex>
+          </GridItem>
+          <GridItem
+            w={['7rem', 'full', 'full', 'full']}
+            h={['5rem', 'full', 'full', 'full']}
+            borderRadius="13"
+            rowSpan={1}
+            colSpan={2}
+            bg="gray.200"
+          >
+            <Flex
+              marginLeft={['1rem', '10rem', '10rem', '10rem']}
+              marginTop={['0.3rem', '1.5rem', '1.5rem', '1.5rem']}
             >
-              <Flex flexDirection="row">
+              <Link
+                _hover={{ color: 'pink.500' }}
+                href="https://www.instagram.com/anshsharma1206/"
+              >
                 Instagram
                 <AiFillInstagram />
-              </Flex>
-            </Link>
-            <Link
-              _hover={{ color: 'blue.600' }}
-              href="https://www.facebook.com/profile.php?id=100001596154001"
+              </Link>
+            </Flex>
+          </GridItem>
+          <GridItem
+            w={['7rem', 'full', 'full', 'full']}
+            h={['5rem', 'full', 'full', 'full']}
+            borderRadius="13"
+            rowSpan={1}
+            colSpan={2}
+            bg="gray.200"
+          >
+            <Flex
+              marginLeft={['1rem', '10rem', '10rem', '10rem']}
+              marginTop={['0.3rem', '1.5rem', '1.5rem', '1.5rem']}
             >
-              <Flex flexDirection="row">
+              <Link
+                _hover={{ color: 'blue.600' }}
+                href="https://www.facebook.com/profile.php?id=100001596154001"
+              >
                 Facebook
                 <AiFillFacebook />
-              </Flex>
-            </Link>
-            <Text fontWeight="bold" fontSize="20">
-              Copyright @ Ansh Sharma.
-            </Text>
-          </Flex>
-        </Box>
-      </Slide>
-    </>
+              </Link>
+            </Flex>
+          </GridItem>
+          <GridItem
+            w={['7rem', 'full', 'full', 'full']}
+            h={['5rem', 'full', 'full', 'full']}
+            borderRadius="13"
+            rowSpan={1}
+            colSpan={2}
+            bg="gray.200"
+          >
+            <Flex
+              marginLeft={['1rem', '10rem', '10rem', '10rem']}
+              marginTop={['1rem', '1.5rem', '1.5rem', '1.5rem']}
+            >
+              <Link
+                _hover={{ color: 'blue.600' }}
+                href="https://www.linkedin.com/in/ansh-sharma-96635120a/"
+              >
+                Linkedin
+                <AiFillLinkedin />
+              </Link>
+            </Flex>
+          </GridItem>
+          <GridItem
+            w={['7rem', 'full', 'full', 'full']}
+            h={['5rem', 'full', 'full', 'full']}
+            borderRadius="13"
+            rowSpan={1}
+            colSpan={2}
+            bg="gray.200"
+          >
+            <Flex
+              marginLeft={['0.8rem', '9rem', '9rem', '9rem']}
+              marginTop={['1rem', '1.5rem', '1.5rem', '1.5rem']}
+            >
+              <Link
+                _hover={{ color: 'red.500' }}
+                href="mailto:anshsharma120601@gmail.com"
+              >
+                <EmailIcon />
+                Email me
+              </Link>
+            </Flex>
+          </GridItem>
+          <GridItem
+            w={['7rem', 'full', 'full', 'full']}
+            h={['5rem', 'full', 'full', 'full']}
+            borderRadius="13"
+            rowSpan={1}
+            colSpan={2}
+            bg="gray.200"
+          >
+            <Flex
+              marginLeft={['1rem', '10rem', '10rem', '10rem']}
+              marginTop={['1rem', '1.5rem', '1.5rem', '1.5rem']}
+            >
+              <Link _hover={{ color: 'purple.500' }} href="">
+                My Blog
+              </Link>
+            </Flex>
+          </GridItem>
+          <GridItem
+            w={['7rem', 'full', 'full', 'full']}
+            h={['5rem', 'full', 'full', 'full']}
+            borderRadius="13"
+            rowSpan={1}
+            colSpan={2}
+            bg="gray.200"
+          >
+            <Flex
+              marginLeft={['1rem', '10rem', '10rem', '10rem']}
+              marginTop={['1rem', '1.5rem', '1.5rem', '1.5rem']}
+            >
+              <Link _hover={{ color: 'green.500' }} href="http://aiactr.ac.in/">
+                NSUT
+                <AiFillBook />
+              </Link>
+            </Flex>
+          </GridItem>
+          <GridItem
+            w={['7rem', 'full', 'full', 'full']}
+            h={['5rem', 'full', 'full', 'full']}
+            borderRadius="13"
+            rowSpan={1}
+            colSpan={2}
+            bg="gray.200"
+          ></GridItem>
+          <GridItem
+            w={['7rem', 'full', 'full', 'full']}
+            h={['5rem', 'full', 'full', 'full']}
+            borderRadius="13"
+            rowSpan={1}
+            colSpan={2}
+            bg="gray.200"
+          ></GridItem>
+        </Grid>
+
+        <Text margin="3" align="center" fontWeight="light" fontSize="25">
+          <Text color={colorr} marginTop={['4rem', '0', '0', '0']}>
+            Rights reserved @ Ansh Sharma.
+            <Avatar height="7" width="7">
+              <Image
+                borderRadius="full"
+                height="30px"
+                width="1000px"
+                objectFit="cover"
+                src="https://scontent.cdninstagram.com/v/t51.39111-15/p526x296/255334296_1040360150143642_8414471458213095484_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=5a057b&_nc_ohc=8VX33L7kxMAAX8GjnrZ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=f808922a51414d280a4f9b924fbdaece&oe=61B594EB"
+              />
+            </Avatar>
+          </Text>
+        </Text>
+      </Box>
+    </Flex>
   );
 }
