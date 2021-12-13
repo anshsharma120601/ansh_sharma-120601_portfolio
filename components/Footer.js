@@ -31,7 +31,7 @@ export default function Footer() {
         bg={bg}
         color={color}
         height={['40rem', '30rem', '30rem', '30rem']}
-        width={['full', 'full', 'full', 'full']}
+        width={['6rem', 'full', 'full', 'full']}
         fontSize="18"
         p={['2px', '40px', '40px', '40px']}
         mt={['70', '4', '4', '4']}
@@ -54,7 +54,7 @@ export default function Footer() {
             'repeat(7, 1fr)',
             'repeat(7, 1fr)',
           ]}
-          gap={[2, 4, 4, 4]}
+          gap={[3, 4, 4, 4]}
         >
           <GridItem
             color="white"
