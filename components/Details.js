@@ -42,7 +42,7 @@ function Details() {
           w={['12rem', '20rem', '20rem', '20rem']}
           objectFit="cover"
           borderRadius={['40px', '13px', '13px', '13px']}
-          src="https://scontent.fdel27-3.fna.fbcdn.net/v/t1.6435-9/34809123_1898037376926116_2863706299722366976_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=M-DvgoKZmlgAX_cBcuk&_nc_ht=scontent.fdel27-3.fna&oh=21c4e808f795885c6b33d05b8cc71d1d&oe=61B05ADB"
+          src="https://scontent.cdninstagram.com/v/t51.39111-15/p526x296/252579930_4473469059433976_1180141849341548555_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=5a057b&_nc_ohc=tybO7DjQEqQAX8XPfBo&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=02_ARqtOtm96fhUSxTzlD8DRvxyNn4e5UbFlPCc0EKnwlKPJw&oe=61BD6D75"
         />
       </Flex>
       <Flex

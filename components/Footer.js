@@ -3,11 +3,9 @@ import {
   Flex,
   Grid,
   Text,
-  useDisclosure,
   Link,
   useColorMode,
   useColorModeValue,
-  Avatar,
   Image,
   GridItem,
 } from '@chakra-ui/react';
@@ -38,10 +36,11 @@ export default function Footer() {
         p={['2px', '40px', '40px', '40px']}
         mt={['70', '4', '4', '4']}
         shadow="md"
-        alignContent="flex-end"
+        align="center"
       >
         <Grid
           margin={['0.5rem', '', '', '']}
+          align="center"
           h={['400px', '300px', '300px', '300px']}
           templateRows={[
             'repeat(3, 1fr)',
