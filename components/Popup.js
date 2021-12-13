@@ -15,7 +15,7 @@ import { MdOutlineWavingHand } from 'react-icons/md';
 export default function Popup() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
-    <Flex>
+    <Flex flexDir="column" align="flex-end">
       <Button
         background="transparent"
         onClick={onOpen}

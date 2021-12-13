@@ -6,7 +6,6 @@ function VideoApp() {
   return (
     <Flex
       marginTop="1rem"
-      bg="red"
       height={['12rem', '20rem', '20rem', '20rem']}
       width={['21rem', '35rem', '35rem', '35rem']}
     >

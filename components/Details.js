@@ -143,7 +143,7 @@ function Details() {
               marginBottom="0.1rem"
               height="13rem"
               width="20rem"
-              src="https://instagram.fdel1-1.fna.fbcdn.net/v/t51.2885-15/fr/e15/s1080x1080/265963000_1088375378657913_2729093761794569192_n.jpg?_nc_ht=instagram.fdel1-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=koqr84nnxhEAX9cfbxM&edm=ABJHkxYAAAAA&ccb=7-4&oh=3023dcf9d69b054782b0a971ad8c3b8c&oe=61B7D535&_nc_sid=fa978c&ig_cache_key=MjcyNDMyNjg2NTMwNDM2NTMwOA%3D%3D.2-ccb7-4"
+              src="https://www.cnet.com/a/img/resize/7019215e6c091895a69f0a82ce56ed30645e49a4/hub/2013/06/13/3bc35600-053a-11e3-bf02-d4ae52e62bcc/Apple_MacBook_Air_13-inch_35781451_06.jpg?auto=webp&width=1092"
             ></Image>
           </Text>
         </Flex>
