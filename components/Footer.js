@@ -41,7 +41,7 @@ export default function Footer() {
         alignContent="flex-end"
       >
         <Grid
-          margin={['1rem', '', '', '']}
+          margin={['0.5rem', '', '', '']}
           h={['400px', '300px', '300px', '300px']}
           templateRows={[
             'repeat(3, 1fr)',
@@ -55,7 +55,7 @@ export default function Footer() {
             'repeat(7, 1fr)',
             'repeat(7, 1fr)',
           ]}
-          gap={[1, 4, 4, 4]}
+          gap={[2, 4, 4, 4]}
         >
           <GridItem
             color="white"
