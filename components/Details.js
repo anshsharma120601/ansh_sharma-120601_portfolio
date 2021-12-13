@@ -139,6 +139,8 @@ function Details() {
             8 GB | macOS Sierra | 128 GB SSD)
             <Image
               objectFit="cover"
+              marginTop="1rem"
+              marginBottom="0rem"
               height="13rem"
               width="20rem"
               src="https://instagram.fdel1-1.fna.fbcdn.net/v/t51.2885-15/fr/e15/s1080x1080/265963000_1088375378657913_2729093761794569192_n.jpg?_nc_ht=instagram.fdel1-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=koqr84nnxhEAX9cfbxM&edm=ABJHkxYAAAAA&ccb=7-4&oh=3023dcf9d69b054782b0a971ad8c3b8c&oe=61B7D535&_nc_sid=fa978c&ig_cache_key=MjcyNDMyNjg2NTMwNDM2NTMwOA%3D%3D.2-ccb7-4"

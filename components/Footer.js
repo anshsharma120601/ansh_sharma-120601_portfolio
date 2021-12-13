@@ -69,7 +69,7 @@ export default function Footer() {
           >
             <Flex
               marginTop={['1.5rem', '8rem', '8rem', '8rem']}
-              marginLeft={['7rem', '1rem', '1rem', '1rem']}
+              marginLeft={['6rem', '1rem', '1rem', '1rem']}
             >
               7011061359
               <AiFillPhone />
@@ -234,18 +234,19 @@ export default function Footer() {
         </Grid>
 
         <Text margin="3" align="center" fontWeight="light" fontSize="25">
-          <Text color={colorr} marginTop={['4rem', '0', '0', '0']}>
-            Rights reserved @ Ansh Sharma.
-            <Avatar height="7" width="7">
+          <Flex flexDir="column" align="center">
+            <Text color={colorr} marginTop={['4rem', '0', '0', '0']}>
+              Rights reserved @ Ansh Sharma.
               <Image
                 borderRadius="full"
-                height="30px"
-                width="1000px"
+                marginLeft="0rem"
+                height="50px"
+                width="50px"
                 objectFit="cover"
                 src="https://scontent.cdninstagram.com/v/t51.39111-15/p526x296/255334296_1040360150143642_8414471458213095484_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=5a057b&_nc_ohc=8VX33L7kxMAAX8GjnrZ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=f808922a51414d280a4f9b924fbdaece&oe=61B594EB"
               />
-            </Avatar>
-          </Text>
+            </Text>
+          </Flex>
         </Text>
       </Box>
     </Flex>
