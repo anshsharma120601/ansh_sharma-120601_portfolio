@@ -13,7 +13,7 @@ function VideoApp() {
       <ReactPlayer
         width="100%"
         height="100%"
-        url="https://youtu.be/87J5HkpFbfo"
+        url="https://www.youtube.com/watch?v=JjhraIOre-w&list=PLVEbpxig2UpD0R2361Wk9MJWKO7gs2aUW&index=1"
       />
     </Flex>
   );
