@@ -43,7 +43,7 @@ export default function Footer() {
           <Grid
             h={['400px', '300px', '300px', '300px']}
             width="full"
-            paddingLeft={['0.5rem', '0rem', '0rem', '0rem']}
+            paddingLeft={['1rem', '0rem', '0rem', '0rem']}
             templateRows={[
               'repeat(3, 1fr)',
               'repeat(3, 1fr)',

@@ -12,8 +12,12 @@ import { DiPython, DiJavascript1 } from 'react-icons/di';
 import VideoApp from './Video';
 
 function Details() {
+  function myFunction() {
+    return alert('Hello');
+  }
   return (
     <Flex
+      onLoad={myFunction}
       marginTop={['4rem', '5.5rem', '5.5rem', '5.5rem']}
       padding="2"
       marginRight={['1rem', '1rem', '1rem', '1rem']}
