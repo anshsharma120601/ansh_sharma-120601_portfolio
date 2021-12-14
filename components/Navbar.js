@@ -165,7 +165,7 @@ export default function Navbar() {
               w="100%"
               onClick={() => changeDisplay('none')}
             >
-              My Projects
+              My Blog
             </Button>
           </NextLink>
 

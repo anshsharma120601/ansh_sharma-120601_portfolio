@@ -16,6 +16,7 @@ import {
   AiFillGithub,
   AiFillLinkedin,
   AiFillBook,
+  AiFillYoutube,
 } from 'react-icons/ai';
 import { EmailIcon } from '@chakra-ui/icons';
 
@@ -26,22 +27,23 @@ export default function Footer() {
   const color = useColorModeValue('black', 'black');
   const colorr = useColorModeValue('white', 'black');
   return (
-    <Flex flexDirection={['row', 'column', 'column', 'column']}>
+    <Flex padding="0rem" flexDirection={['row', 'column', 'column', 'column']}>
       <Box
         bg={bg}
         color={color}
         height={['40rem', '30rem', '30rem', '30rem']}
-        width={['full', 'full', 'full', 'full']}
+        width="full"
         fontSize="18"
-        p={['2px', '40px', '40px', '40px']}
-        mt={['70', '4', '4', '4']}
+        padding={['1px', '40px', '40px', '40px']}
+        marginTop={['70', '4', '4', '4']}
         shadow="md"
         align="center"
       >
         <Flex flexDir="column" align="stretch">
           <Grid
-            marginLeft={['1.5rem', '', '', '']}
             h={['400px', '300px', '300px', '300px']}
+            width="full"
+            paddingLeft={['0.5rem', '0rem', '0rem', '0rem']}
             templateRows={[
               'repeat(3, 1fr)',
               'repeat(3, 1fr)',
@@ -63,7 +65,7 @@ export default function Footer() {
               colSpan={[6, 1, 1, 1]}
               w={['full', 'full', 'full', 'full']}
               h={['5rem', 'full', 'full', 'full']}
-              paddingLeft={['1rem', '', '', '']}
+              paddingLeft={['2rem', '', '', '']}
               bg="black"
             >
               <Flex
@@ -224,7 +226,20 @@ export default function Footer() {
               rowSpan={1}
               colSpan={2}
               bg="gray.200"
-            ></GridItem>
+            >
+              <Flex
+                marginLeft={['0.25rem', '8rem', '8rem', '8rem']}
+                marginTop={['0.25rem', '1.5rem', '1.5rem', '1.5rem']}
+              >
+                <Link
+                  _hover={{ color: 'red.500' }}
+                  href="https://www.youtube.com/channel/UCErpnQ-UsIAmpQYrC9qJDRQ"
+                >
+                  Youtube Channel
+                  <AiFillYoutube />
+                </Link>
+              </Flex>
+            </GridItem>
             <GridItem
               w={['7rem', 'full', 'full', 'full']}
               h={['5rem', 'full', 'full', 'full']}
