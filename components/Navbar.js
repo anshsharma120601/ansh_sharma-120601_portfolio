@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <Flex>
       <Flex
-        bgGradient="linear(to-r, red.400, pink.400, yellow.300, green.300, blue.400)"
+        bg="yellow.300"
         position="fixed"
         top="0rem"
         align="center"

@@ -40,7 +40,7 @@ export default function Footer() {
       >
         <Flex flexDir="column" align="stretch">
           <Grid
-            marginLeft={['1rem', '', '', '']}
+            marginLeft={['1.5rem', '', '', '']}
             h={['400px', '300px', '300px', '300px']}
             templateRows={[
               'repeat(3, 1fr)',
