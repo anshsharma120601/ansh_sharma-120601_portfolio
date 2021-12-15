@@ -44,6 +44,7 @@ export default function Footer() {
             h={['400px', '300px', '300px', '300px']}
             width="full"
             paddingLeft={['1.5rem', '0rem', '0rem', '0rem']}
+            paddingRight={['1.5rem', '0rem', '0rem', '0rem']}
             templateRows={[
               'repeat(3, 1fr)',
               'repeat(3, 1fr)',
@@ -262,7 +263,7 @@ export default function Footer() {
                 width="50px"
                 objectFit="cover"
                 src="/images/profileimg.jpeg"
-                alt=""              
+                alt=""
               />
             </Text>
           </Flex>

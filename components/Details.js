@@ -7,6 +7,7 @@ import {
   UnorderedList,
   Heading,
   Text,
+  Slide,
 } from '@chakra-ui/react';
 
 import { DiPython, DiJavascript1 } from 'react-icons/di';

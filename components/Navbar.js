@@ -88,7 +88,7 @@ export default function Navbar() {
 
       {/* Mobile Content */}
       <Flex
-        w="50vh"
+        w="full"
         display={display}
         bgColor="gray.50"
         zIndex={20}
