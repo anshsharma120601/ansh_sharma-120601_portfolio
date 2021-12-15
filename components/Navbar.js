@@ -52,7 +52,10 @@ export default function Navbar() {
             </Button>
           </NextLink>
 
-          <NextLink href="/my_blog" passHref>
+          <NextLink
+            href="https://medium.com/@anshsharma120601/python-for-beginners-by-ansh-sharma-35a9ffbdb1d2"
+            passHref
+          >
             <Button as="a" variant="ghost" aria-label="Contact" my={5} w="100%">
               My Blog
             </Button>

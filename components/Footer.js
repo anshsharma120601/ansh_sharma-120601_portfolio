@@ -193,7 +193,10 @@ export default function Footer() {
                 marginLeft={['1rem', '10rem', '10rem', '10rem']}
                 marginTop={['1rem', '1.5rem', '1.5rem', '1.5rem']}
               >
-                <Link _hover={{ color: 'purple.500' }} href="">
+                <Link
+                  _hover={{ color: 'purple.500' }}
+                  href="https://medium.com/@anshsharma120601/python-for-beginners-by-ansh-sharma-35a9ffbdb1d2"
+                >
                   My Blog
                 </Link>
               </Flex>
