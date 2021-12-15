@@ -158,7 +158,10 @@ export default function Navbar() {
             </Button>
           </NextLink>
 
-          <NextLink href="/my_projects" passHref>
+          <NextLink
+            href="https://medium.com/@anshsharma120601/python-for-beginners-by-ansh-sharma-35a9ffbdb1d2"
+            passHref
+          >
             <Button
               color="black"
               as="a"
