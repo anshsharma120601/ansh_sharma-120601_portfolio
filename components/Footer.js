@@ -43,7 +43,7 @@ export default function Footer() {
           <Grid
             h={['400px', '300px', '300px', '300px']}
             width="full"
-            paddingLeft={['1rem', '0rem', '0rem', '0rem']}
+            paddingLeft={['1.5rem', '0rem', '0rem', '0rem']}
             templateRows={[
               'repeat(3, 1fr)',
               'repeat(3, 1fr)',
@@ -261,7 +261,8 @@ export default function Footer() {
                 height="50px"
                 width="50px"
                 objectFit="cover"
-                src="https://scontent.fdel1-5.fna.fbcdn.net/v/t1.6435-9/34809123_1898037376926116_2863706299722366976_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=j-46wggD_BoAX92PMZI&_nc_ht=scontent.fdel1-5.fna&oh=00_AT8BGdBChN_8tIjA_ZjvaqS06slOe1FUsRd1P5x4yllrXQ&oe=61DBDC5B"
+                src="/images/profileimg.jpeg"
+                alt=""              
               />
             </Text>
           </Flex>

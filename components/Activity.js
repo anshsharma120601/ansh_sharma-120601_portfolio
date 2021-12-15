@@ -31,8 +31,7 @@ export default function Activity() {
             _hover={{ color: 'blue.600' }}
             href="http://www.eklavyatrust.org/"
           >
-            {' '}
-            Eklavya NGO school{' '}
+            Eklavya NGO school
           </Link>
         </u>
         as a science and maths teacher for classes 9th, 10th and 11th. I have
@@ -42,14 +41,14 @@ export default function Activity() {
 
       <Image
         h={['13rem', '18rem', '18rem', '18rem']}
-        w={['12rem', '20rem', '20rem', '20rem']}
+        w={['13rem', '22rem', '22rem', '22rem']}
         margin={['0.3rem', '0.5rem', '0.5rem', '0.5rem']}
         padding="0.2rem"
         borderRadius={['50px', '13px', '13px', '13px']}
         cursor="pointer"
         bgColor="white"
         objectFit="cover"
-        src="https://images.newindianexpress.com/uploads/user/imagelibrary/2021/2/7/w1200X800/This_ngo_leads_fight.jpg"
+        src="/images/NGO.png"
       />
 
       <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
@@ -62,15 +61,15 @@ export default function Activity() {
       </p>
 
       <Image
-        h={['6rem', '18rem', '18rem', '18rem']}
-        w={['30rem', '40rem', '60rem', '60rem']}
+        h={['15rem', '18rem', '18rem', '18rem']}
+        w={['15rem', '18rem', '18rem', '18rem']}
         margin={['0.1rem', '0.5rem', '0.5rem', '0.5rem']}
         padding="0.2rem"
         borderRadius={['50px', '13px', '13px', '13px']}
         cursor="pointer"
         bgColor="white"
         objectFit="contain"
-        src="https://www.odysseyofthemind.com/wp-content/uploads/2021/06/OM-Full-Logo-1.png"
+        src="/images/odm.jpeg"
       />
 
       <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
@@ -89,9 +88,9 @@ export default function Activity() {
         padding="0.2rem"
         borderRadius={['50px', '13px', '13px', '13px']}
         cursor="pointer"
-        objectFit="cover"
+        objectFit="contain"
         bgColor="white"
-        src="https://avatars.githubusercontent.com/u/81307379?s=400&u=808940eb4ed826e74fa3382e9b76d6e18900b938&v=4"
+        src="/images/acc.png"
       />
 
       <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
@@ -112,7 +111,7 @@ export default function Activity() {
         cursor="pointer"
         objectFit="cover"
         bgColor="white"
-        src="https://instagram.fdel1-1.fna.fbcdn.net/v/t51.2885-15/e35/p480x480/264509731_135560275513365_6762808580823926292_n.jpg?_nc_ht=instagram.fdel1-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=I3jS3jFQi3sAX8ukfMI&edm=ABJHkxYAAAAA&ccb=7-4&oh=8fd457b03cfc295b5d2d47fec7931490&oe=61B808C2&_nc_sid=fa978c&ig_cache_key=MjcyNDMyNzk4MDgwODM0MzE4Nw%3D%3D.2-ccb7-4"
+        src="/images/Guitar.jpeg"
       />
 
       <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
@@ -132,7 +131,7 @@ export default function Activity() {
         cursor="pointer"
         bgColor="white"
         objectFit="cover"
-        src="https://instagram.fdel1-5.fna.fbcdn.net/v/t51.2885-15/e15/p640x640/264820309_449652006775488_1221529932861561423_n.jpg?_nc_ht=instagram.fdel1-5.fna.fbcdn.net&_nc_cat=100&_nc_ohc=mmf18-tr-tQAX8buTkF&edm=ABJHkxYAAAAA&ccb=7-4&oh=179deac8f10033a52d34da3664448626&oe=61B71DD3&_nc_sid=fa978c&ig_cache_key=MjcyNDI4NzcwMzg1NDk5NTcyMQ%3D%3D.2-ccb7-4"
+        src="/images/bike.jpeg"
       />
     </Flex>
   );

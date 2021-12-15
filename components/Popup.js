@@ -32,10 +32,9 @@ export default function Popup() {
           <ModalHeader>Hello! Welcome to my portfolio.</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            I am Ansh Sharma, I welcome you to my portfolio and blog project!, I
-            am a front-end developer and a machine learning intern who holds a
-            B.Tech degree in Electronics and Communication. Currently I am more
-            leaned towards sotware.
+            I am Ansh Sharma, I welcome you to my portfolio and blog!, I
+            am a front-end web developer and a machine learning intern who holds a
+            B.Tech degree in Electronics and Communication. My area of interest is software development.
           </ModalBody>
 
           <ModalFooter>
