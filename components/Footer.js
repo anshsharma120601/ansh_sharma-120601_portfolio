@@ -173,7 +173,7 @@ export default function Footer() {
                 marginTop={['1rem', '1.5rem', '1.5rem', '1.5rem']}
               >
                 <Link
-                  _hover={{ color: 'red.500' }}
+                  _hover={{ color: 'orange.500' }}
                   href="mailto:anshsharma120601@gmail.com"
                 >
                   <EmailIcon />

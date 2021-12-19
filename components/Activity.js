@@ -40,15 +40,15 @@ export default function Activity() {
       </p>
 
       <Image
-        h={['13rem', '18rem', '18rem', '18rem']}
-        w={['13rem', '22rem', '22rem', '22rem']}
+        h={['12rem', '20rem', '20rem', '20rem']}
+        w={['23rem', '40rem', '40rem', '40rem']}
         margin={['0.3rem', '0.5rem', '0.5rem', '0.5rem']}
         padding="0.2rem"
         borderRadius={['50px', '13px', '13px', '13px']}
         cursor="pointer"
         bgColor="white"
         objectFit="cover"
-        src="/images/NGO.png"
+        src="/images/Eklavya.png"
       />
 
       <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
