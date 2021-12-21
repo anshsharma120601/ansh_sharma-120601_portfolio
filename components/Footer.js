@@ -17,6 +17,7 @@ import {
   AiFillLinkedin,
   AiFillBook,
   AiFillYoutube,
+  AiOutlineWhatsApp,
 } from 'react-icons/ai';
 import { EmailIcon } from '@chakra-ui/icons';
 
@@ -250,7 +251,20 @@ export default function Footer() {
               rowSpan={1}
               colSpan={2}
               bg="gray.200"
-            ></GridItem>
+            >
+              <Flex
+                marginLeft={['0.5rem', '9rem', '9rem', '9rem']}
+                marginTop={['0.5rem', '1.5rem', '1.5rem', '1.5rem']}
+              >
+                <Link
+                  _hover={{ color: 'green.500' }}
+                  href="https://api.whatsapp.com/send?phone=+91-7011061359&text=Hello%20"
+                >
+                  Whatsapp
+                  <AiOutlineWhatsApp />
+                </Link>
+              </Flex>
+            </GridItem>
           </Grid>
         </Flex>
 

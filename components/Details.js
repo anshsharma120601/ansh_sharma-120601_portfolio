@@ -7,9 +7,10 @@ import {
   UnorderedList,
   Heading,
   Text,
-  Slide,
+  Button,
 } from '@chakra-ui/react';
 
+import { AiOutlineWhatsApp } from 'react-icons/ai';
 import { DiPython, DiJavascript1 } from 'react-icons/di';
 import VideoApp from './Video';
 
@@ -31,15 +32,26 @@ function Details() {
       flexDirection="column"
       fontFamily="font-family: 'Inter', sans-serif"
     >
-      <Heading
-        fontSize={['28px', '64px', '64px', '64px']}
-        fontFamily="cursive"
-        background="-webkit-linear-gradient(red, gold)"
-        bgClip="text"
-        textColor="transparent"
-      >
-        Ansh Sharma Portfolio
-      </Heading>
+      <Flex>
+        <Heading
+          fontSize={['28px', '64px', '64px', '64px']}
+          fontFamily="cursive"
+          background="-webkit-linear-gradient(red, gold)"
+          bgClip="text"
+          textColor="transparent"
+        >
+          Ansh Sharma Portfolio
+        </Heading>
+        <Button
+          marginLeft={['3rem', '30rem', '30rem', '47rem']}
+          bgColor="green.400"
+          _hover={{ bgColor: 'green.300' }}
+        >
+          <Link href="https://api.whatsapp.com/send?phone=+91-7011061359&text=Hello%20">
+            <AiOutlineWhatsApp size="35" />
+          </Link>
+        </Button>
+      </Flex>
       <Flex>
         <Image
           onLoad={myFunction}
