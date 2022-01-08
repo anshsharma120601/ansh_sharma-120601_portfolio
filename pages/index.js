@@ -26,5 +26,3 @@ export default function Home() {
     </div>
   );
 }
-
-google-site-verification: googleb1fa9ba8680b8b2a.html
