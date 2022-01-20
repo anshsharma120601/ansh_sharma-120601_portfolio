@@ -2,6 +2,7 @@ import Details from '../components/Details';
 import { RingLoader } from 'react-spinners';
 import { useState, useEffect } from 'react';
 import { Flex } from '@chakra-ui/react';
+import Head from 'next/head';
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
@@ -13,12 +14,12 @@ export default function Home() {
   }, []);
   return (
     <div>
-      <head>
+      <Head>
         <meta
           name="google-site-verification"
           content="SRI9DJZi4wNpKQCq5Vx1-UKk2ihv1nu8iTSNvfo-QCw"
         />
-      </head>
+      </Head>
       {loading ? (
         <Flex
           padding={['8.5rem', '0rem', '0rem', '0rem']}
