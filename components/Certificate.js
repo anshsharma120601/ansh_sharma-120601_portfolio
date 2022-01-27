@@ -14,6 +14,7 @@ export default function Certificate() {
           h={['15rem', '30rem', '30rem', '30rem']}
           w={['19rem', '37rem', '37rem', '37rem']}
           src="/images/certificate1.png"
+          alt="React Ansh Sharma Udemy certificate"
         />
 
         <Image
@@ -26,6 +27,7 @@ export default function Certificate() {
           h={['15rem', '30rem', '30rem', '30rem']}
           w={['19rem', '37rem', '37rem', '37rem']}
           src="/images/certificate2.png"
+          alt="Ansh Sharma python course certificate Coursera"
         />
       </Flex>
 
@@ -40,6 +42,7 @@ export default function Certificate() {
         h={['22rem', '35rem', '35rem', '35rem']}
         w={['18rem', '20rem', '20rem', '20rem']}
         src="/images/Certificate3.png"
+        alt="Ansh Sharma's letter of recommendation from Eklavya"
       />
     </Flex>
   );

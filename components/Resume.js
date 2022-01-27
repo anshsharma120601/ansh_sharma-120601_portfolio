@@ -12,7 +12,7 @@ function Resume() {
         h={['27rem', '40rem', '40rem', '40rem']}
         w={['18rem', '30rem', '30rem', '30rem']}
         src="/images/resume.jpeg"
-        alt=""
+        alt="Ansh Sharma resume"
       />
     </Flex>
   );

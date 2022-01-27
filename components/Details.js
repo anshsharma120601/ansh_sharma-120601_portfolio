@@ -63,7 +63,7 @@ function Details() {
           objectFit="cover"
           borderRadius={['40px', '13px', '13px', '13px']}
           src="/images/yes.png"
-          alt=""
+          alt="Ansh Sharma Portfolio"
         />
       </Flex>
       <Flex
@@ -83,6 +83,7 @@ function Details() {
               height={['4rem', '7rem', '7rem', '7rem']}
               width={['4rem', '7rem', '7rem', '7rem']}
               src="/images/logo.png"
+              alt="NSUT logo"
             />
           </Flex>
 
@@ -167,7 +168,7 @@ function Details() {
               height="13rem"
               width="20rem"
               src="/images/mac.png"
-              alt=""
+              alt="Macbook Air 13inch"
             />
           </Text>
         </Flex>

@@ -49,6 +49,7 @@ export default function Activity() {
         bgColor="white"
         objectFit="cover"
         src="/images/Eklavya.png"
+        alt="Ansh Sharma at Eklavya"
       />
 
       <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
@@ -70,6 +71,7 @@ export default function Activity() {
         bgColor="white"
         objectFit="contain"
         src="/images/odm.jpeg"
+        alt="ODM Ansh Sharma"
       />
 
       <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
@@ -91,6 +93,7 @@ export default function Activity() {
         objectFit="contain"
         bgColor="white"
         src="/images/acc.png"
+        alt="Ansh Sharma at ACC"
       />
 
       <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
@@ -112,6 +115,7 @@ export default function Activity() {
         objectFit="cover"
         bgColor="white"
         src="/images/Guitar.jpeg"
+        alt="Ansh Sharma Guitar"
       />
 
       <Heading as="h2" fontSize={['20', '43', '43', '43']} fontWeight="thin">
@@ -132,6 +136,7 @@ export default function Activity() {
         bgColor="white"
         objectFit="cover"
         src="/images/bike.jpeg"
+        alt="Ansh Sharma Interceptor 650"
       />
     </Flex>
   );
