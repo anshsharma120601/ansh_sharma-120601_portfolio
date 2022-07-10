@@ -2,4 +2,4 @@
 
 👋 Hello, welcome to portfolio!!
 
-Created usinng Reactjs and nextjs.
+Created using Reactjs and nextjs.
